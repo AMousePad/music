@@ -1,0 +1,274 @@
+[
+ {
+  "piece": "Barcarolle",
+  "perf": "Kociuban13.mid",
+  "median_bpm": 63.412929608284564,
+  "beat_tempo_ratio_p05": 0.5938196394692457,
+  "beat_tempo_ratio_p95": 1.386360275282039,
+  "sd_log2_beat": 0.4676860237401762,
+  "within_bar_profile": [
+   0.9705477927267572,
+   1.0316774365695498,
+   1.0654128241342802,
+   0.9153750766670219
+  ],
+  "bar_tempo_ratio_p05": 0.6247262087487249,
+  "bar_tempo_ratio_p95": 1.3505300169668484,
+  "sd_log2_bar": 0.32472040660874607,
+  "bar_to_bar_change_sd": 0.27880660779136884,
+  "last4_bars_ratio": 0.6159029964251781,
+  "slowest_bar": 0.5799602199602206
+ },
+ {
+  "piece": "Barcarolle",
+  "perf": "LeeSH05M.mid",
+  "median_bpm": 59.39677037492562,
+  "beat_tempo_ratio_p05": 0.5329339935324652,
+  "beat_tempo_ratio_p95": 1.3411932264054143,
+  "sd_log2_beat": 0.40864375238651707,
+  "within_bar_profile": [
+   0.9594358959943434,
+   1.0581014555512243,
+   1.0305526307473856,
+   0.942419529403714
+  ],
+  "bar_tempo_ratio_p05": 0.5672293055029424,
+  "bar_tempo_ratio_p95": 1.314690447381518,
+  "sd_log2_bar": 0.33920557807266516,
+  "bar_to_bar_change_sd": 0.27586987135589275,
+  "last4_bars_ratio": 0.5682717573653272,
+  "slowest_bar": 0.5132149347832773
+ },
+ {
+  "piece": "Barcarolle",
+  "perf": "Na03.mid",
+  "median_bpm": 61.293410849205884,
+  "beat_tempo_ratio_p05": 0.6166396523057422,
+  "beat_tempo_ratio_p95": 1.3987867746913825,
+  "sd_log2_beat": 0.35375369790954714,
+  "within_bar_profile": [
+   0.9902085221966088,
+   1.0356773038131777,
+   1.0173487397768812,
+   0.9043798570736528
+  ],
+  "bar_tempo_ratio_p05": 0.7262926592418759,
+  "bar_tempo_ratio_p95": 1.3480734469027522,
+  "sd_log2_bar": 0.2709128428598875,
+  "bar_to_bar_change_sd": 0.22649652018639294,
+  "last4_bars_ratio": 0.7067692290980591,
+  "slowest_bar": 0.6017942278190983
+ },
+ {
+  "piece": "Barcarolle",
+  "perf": "Na09M.mid",
+  "median_bpm": 60.41298964202148,
+  "beat_tempo_ratio_p05": 0.6306718333117559,
+  "beat_tempo_ratio_p95": 1.4255678252928645,
+  "sd_log2_beat": 0.34895199631525237,
+  "within_bar_profile": [
+   1.0036291947946725,
+   1.0455809953111364,
+   1.020401469752597,
+   0.8900227203500104
+  ],
+  "bar_tempo_ratio_p05": 0.7117539443512999,
+  "bar_tempo_ratio_p95": 1.3258097393102664,
+  "sd_log2_bar": 0.2650755018367862,
+  "bar_to_bar_change_sd": 0.23406737564708988,
+  "last4_bars_ratio": 0.7288927504759489,
+  "slowest_bar": 0.6230154763235276
+ },
+ {
+  "piece": "Barcarolle",
+  "perf": "Ozel10M.mid",
+  "median_bpm": 59.343214179858734,
+  "beat_tempo_ratio_p05": 0.6216409905154298,
+  "beat_tempo_ratio_p95": 1.3705757443241724,
+  "sd_log2_beat": 0.34944934466734573,
+  "within_bar_profile": [
+   0.9866599856260875,
+   1.0394927628906623,
+   1.0130460597931097,
+   0.9469513957358341
+  ],
+  "bar_tempo_ratio_p05": 0.7000168393744526,
+  "bar_tempo_ratio_p95": 1.3315696428070352,
+  "sd_log2_bar": 0.2924831068322729,
+  "bar_to_bar_change_sd": 0.2220636554442915,
+  "last4_bars_ratio": 0.6767619025652947,
+  "slowest_bar": 0.568470375266896
+ },
+ {
+  "piece": "Barcarolle",
+  "perf": "Park10M.mid",
+  "median_bpm": 56.04134314682633,
+  "beat_tempo_ratio_p05": 0.5852314144746064,
+  "beat_tempo_ratio_p95": 1.3152340010962842,
+  "sd_log2_beat": 0.3883355842027096,
+  "within_bar_profile": [
+   0.9774148596519342,
+   1.047789110386225,
+   1.0107568708324386,
+   0.9753858685125709
+  ],
+  "bar_tempo_ratio_p05": 0.6537290504068037,
+  "bar_tempo_ratio_p95": 1.3403493900385353,
+  "sd_log2_bar": 0.3264835698415048,
+  "bar_to_bar_change_sd": 0.29694997501327497,
+  "last4_bars_ratio": 0.5596579527212009,
+  "slowest_bar": 0.441396834273026
+ },
+ {
+  "piece": "Barcarolle",
+  "perf": "Rozanski07M.mid",
+  "median_bpm": 55.68583168360134,
+  "beat_tempo_ratio_p05": 0.5211752325462677,
+  "beat_tempo_ratio_p95": 1.504476940727775,
+  "sd_log2_beat": 0.4566306187640748,
+  "within_bar_profile": [
+   0.9192004011224341,
+   1.0588816862358237,
+   1.0816984712021893,
+   0.8970187495904209
+  ],
+  "bar_tempo_ratio_p05": 0.650917565728676,
+  "bar_tempo_ratio_p95": 1.4914079786639423,
+  "sd_log2_bar": 0.3679682482941986,
+  "bar_to_bar_change_sd": 0.33137792008041783,
+  "last4_bars_ratio": 0.6659083704314703,
+  "slowest_bar": 0.4652170746070016
+ },
+ {
+  "piece": "Barcarolle",
+  "perf": "Verbaite03.mid",
+  "median_bpm": 58.103166228633484,
+  "beat_tempo_ratio_p05": 0.6601610044483931,
+  "beat_tempo_ratio_p95": 1.3680958632522955,
+  "sd_log2_beat": 0.343530167080891,
+  "within_bar_profile": [
+   0.9910243874262448,
+   1.024183051933207,
+   1.026887178951496,
+   0.9293827136307876
+  ],
+  "bar_tempo_ratio_p05": 0.7305932378304008,
+  "bar_tempo_ratio_p95": 1.3556278901598218,
+  "sd_log2_bar": 0.27695966539992956,
+  "bar_to_bar_change_sd": 0.2377873852137642,
+  "last4_bars_ratio": 0.861213390344567,
+  "slowest_bar": 0.5706829408499802
+ },
+ {
+  "piece": "Barcarolle",
+  "perf": "Wilshire04.mid",
+  "median_bpm": 61.33525035621001,
+  "beat_tempo_ratio_p05": 0.5717976560429293,
+  "beat_tempo_ratio_p95": 1.4385356278957202,
+  "sd_log2_beat": 0.42774718321391775,
+  "within_bar_profile": [
+   0.967328345833417,
+   1.044190754477612,
+   1.055474680977122,
+   0.929568322093849
+  ],
+  "bar_tempo_ratio_p05": 0.6044997020151787,
+  "bar_tempo_ratio_p95": 1.3924825808447832,
+  "sd_log2_bar": 0.37303382296753723,
+  "bar_to_bar_change_sd": 0.3052027225926433,
+  "last4_bars_ratio": 0.5747856096929617,
+  "slowest_bar": 0.433223629774047
+ },
+ {
+  "piece": "Berceuse_op_57",
+  "perf": "LeungM07M.mid",
+  "median_bpm": 34.04523640249811,
+  "beat_tempo_ratio_p05": 0.719644274302436,
+  "beat_tempo_ratio_p95": 1.206726025548281,
+  "sd_log2_beat": 0.23450828578482708,
+  "within_bar_profile": [
+   1.0127147185572878,
+   0.9654017082746247
+  ],
+  "bar_tempo_ratio_p05": 0.787217592838932,
+  "bar_tempo_ratio_p95": 1.1481400977138791,
+  "sd_log2_bar": 0.1975996423094904,
+  "bar_to_bar_change_sd": 0.17342202805241694,
+  "last4_bars_ratio": 0.7235524059061214,
+  "slowest_bar": 0.6041175692119409
+ },
+ {
+  "piece": "Berceuse_op_57",
+  "perf": "MiyashitaM06M.mid",
+  "median_bpm": 32.82993122263524,
+  "beat_tempo_ratio_p05": 0.7060467210625234,
+  "beat_tempo_ratio_p95": 1.1868757148643283,
+  "sd_log2_beat": 0.24847805398466571,
+  "within_bar_profile": [
+   0.9491493947646945,
+   1.0242592328838562,
+   1.2342572739956967,
+   1.0630089957117743
+  ],
+  "bar_tempo_ratio_p05": 0.7725769822276614,
+  "bar_tempo_ratio_p95": 1.1549326249336298,
+  "sd_log2_bar": 0.21415501593920344,
+  "bar_to_bar_change_sd": 0.1654705788392494,
+  "last4_bars_ratio": 0.6681566787663951,
+  "slowest_bar": 0.5643987627543673
+ },
+ {
+  "piece": "Berceuse_op_57",
+  "perf": "Tario07M.mid",
+  "median_bpm": 34.98196659917433,
+  "beat_tempo_ratio_p05": 0.5881237109091856,
+  "beat_tempo_ratio_p95": 1.3785269162591969,
+  "sd_log2_beat": 0.3843787411403852,
+  "within_bar_profile": [
+   1.0235039153228347,
+   0.9721402703629313
+  ],
+  "bar_tempo_ratio_p05": 0.5989205737144605,
+  "bar_tempo_ratio_p95": 1.2596759339259453,
+  "sd_log2_bar": 0.35081871383249774,
+  "bar_to_bar_change_sd": 0.35464224138139544,
+  "last4_bars_ratio": 0.5883418763690007,
+  "slowest_bar": 0.34168867701004507
+ },
+ {
+  "piece": "Berceuse_op_57",
+  "perf": "Teo11M.mid",
+  "median_bpm": 29.591101425993436,
+  "beat_tempo_ratio_p05": 0.7966010133483765,
+  "beat_tempo_ratio_p95": 1.16950840636643,
+  "sd_log2_beat": 0.23188296484036094,
+  "within_bar_profile": [
+   1.0204620131096107,
+   0.9884003448061474
+  ],
+  "bar_tempo_ratio_p05": 0.8360680672012336,
+  "bar_tempo_ratio_p95": 1.1623198085137965,
+  "sd_log2_bar": 0.19537125435884997,
+  "bar_to_bar_change_sd": 0.23674302303615816,
+  "last4_bars_ratio": 0.8521613552361199,
+  "slowest_bar": 0.5043977608496295
+ },
+ {
+  "piece": "Berceuse_op_57",
+  "perf": "ZhangE09M.mid",
+  "median_bpm": 32.30511247161634,
+  "beat_tempo_ratio_p05": 0.7577335142569762,
+  "beat_tempo_ratio_p95": 1.2797188009534128,
+  "sd_log2_beat": 0.232438189563875,
+  "within_bar_profile": [
+   1.0174036203292292,
+   0.9864451004469145
+  ],
+  "bar_tempo_ratio_p05": 0.7933868983371988,
+  "bar_tempo_ratio_p95": 1.183379373181823,
+  "sd_log2_bar": 0.1864118091320622,
+  "bar_to_bar_change_sd": 0.1619612400847683,
+  "last4_bars_ratio": 0.8074386557133899,
+  "slowest_bar": 0.6608281971884852
+ }
+]

@@ -1,0 +1,10 @@
+file ../out/final/nocturne_b_minor.wav
+ duration 252.1s  integrated -21.2 LUFS  sample peak -1.0 dBFS
+ 400ms RMS dB: p05 -40.8  p50 -28.0  p95 -19.6  max -14.3  => dynamic span p95-p05 21.3 dB
+ LRA (p95-p10 of 3 s loudness) 15.3 LU
+ stereo correlation 0.49   side/mid energy -4.5 dB
+ energy share dB: <100Hz -11.0 | 100-400 -4.6 | 400-1.6k -2.6 | 1.6-6k -16.3 | >6k -49.4
+ spectral centroid median 448 Hz
+ max |dx| 0.1498 (p99.99 0.0758)  DC -6.19e-08
+ last 12 s level: start -48.4 dB  end -119.1 dB
+ wrote ../out/final/spectrogram.png

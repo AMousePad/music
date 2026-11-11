@@ -1,0 +1,38 @@
+Larkspur Rag: 68 written bars, 1105 notes
+  pct_bars_tied_syncopation: 44.1
+  pct_bars_short_long_short: 14.7
+  pct_bars_running_sixteenths: 8.8
+  pct_attacks_octave: 16.1
+  pct_attacks_chord: 29.6
+  attacks_per_bar: 5.47
+  pct_bars_march_bass: 66.2
+  lh_lowest_median: 38.5
+  melody_low: G4
+  melody_high: G6
+  melody_median: 77.0
+  pct_step: 46.1
+  pct_repeat: 1.6
+  pct_third: 35.6
+  pct_4th_5th: 13.2
+  pct_6th_plus: 3.5
+  chromatic_share: 9.8
+  melody_tone_types: {'chord tone': 313, 'passing or neighbour note': 58, 'appoggiatura / incomplete neighbour': 1}
+issues: 0
+
+against 33 Joplin rags (min / median / max):
+  pct_bars_tied_syncopation      mine   44.1   Joplin    4.4 /   30.7 /   58.0   within
+  pct_bars_short_long_short      mine   14.7   Joplin    0.0 /   19.3 /   59.6   within
+  pct_bars_running_sixteenths    mine    8.8   Joplin    0.0 /    6.6 /   20.2   within
+  pct_attacks_octave             mine   16.1   Joplin    2.0 /   12.3 /   44.0   within
+  pct_attacks_chord              mine   29.6   Joplin   20.5 /   45.4 /   61.5   within
+  attacks_per_bar                mine    5.5   Joplin    3.9 /    5.2 /    6.0   within
+  pct_bars_march_bass            mine   66.2   Joplin   29.9 /   54.8 /   67.0   within
+  lh_lowest_median               mine   38.5   Joplin   36.0 /   41.0 /   47.0   within
+  melody_median                  mine   77.0   Joplin   71.0 /   75.0 /   79.0   within
+  pct_step                       mine   46.1   Joplin   21.0 /   49.3 /   59.8   within
+  pct_repeat                     mine    1.6   Joplin    1.2 /    5.9 /   18.4   within
+  pct_third                      mine   35.6   Joplin   10.6 /   24.1 /   38.0   within
+  pct_4th_5th                    mine   13.2   Joplin    6.6 /   13.8 /   25.9   within
+  pct_6th_plus                   mine    3.5   Joplin    3.5 /    9.4 /   19.7   within
+  chromatic_share                mine    9.8   Joplin    8.3 /   12.8 /   28.1   within
+  15 of 15 inside Joplin's range

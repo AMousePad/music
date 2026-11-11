@@ -1,0 +1,39 @@
+Intro pass 1 bars  1- 4  similarity 0.993  runner-up 0.962
+A     pass 1 bars  1- 4  similarity 0.991  runner-up 0.921
+A     pass 1 bars  5- 8  similarity 0.985  runner-up 0.917
+A     pass 1 bars  9-12  similarity 0.989  runner-up 0.877
+A     pass 1 bars 13-16  similarity 0.995  runner-up 0.897
+A     pass 2 bars  1- 4  similarity 0.989  runner-up 0.929
+A     pass 2 bars  5- 8  similarity 0.985  runner-up 0.920
+A     pass 2 bars  9-12  similarity 0.986  runner-up 0.876
+A     pass 2 bars 13-16  similarity 0.993  runner-up 0.884
+B     pass 1 bars  1- 4  similarity 0.973  runner-up 0.904
+B     pass 1 bars  5- 8  similarity 0.992  runner-up 0.818
+B     pass 1 bars  9-12  similarity 0.982  runner-up 0.878
+B     pass 1 bars 13-16  similarity 0.991  runner-up 0.925
+B     pass 2 bars  1- 4  similarity 0.974  runner-up 0.917
+B     pass 2 bars  5- 8  similarity 0.988  runner-up 0.803
+B     pass 2 bars  9-12  similarity 0.981  runner-up 0.881
+B     pass 2 bars 13-16  similarity 0.991  runner-up 0.921
+A     pass 3 bars  1- 4  similarity 0.986  runner-up 0.921
+A     pass 3 bars  5- 8  similarity 0.983  runner-up 0.918
+A     pass 3 bars  9-12  similarity 0.985  runner-up 0.859
+A     pass 3 bars 13-16  similarity 0.989  runner-up 0.882
+C     pass 1 bars  1- 4  similarity 0.990  runner-up 0.920
+C     pass 1 bars  5- 8  similarity 0.982  runner-up 0.895
+C     pass 1 bars  9-12  similarity 0.991  runner-up 0.889
+C     pass 1 bars 13-16  similarity 0.990  runner-up 0.922
+C     pass 2 bars  1- 4  similarity 0.990  runner-up 0.917
+C     pass 2 bars  5- 8  similarity 0.986  runner-up 0.889
+C     pass 2 bars  9-12  similarity 0.993  runner-up 0.890
+C     pass 2 bars 13-16  similarity 0.990  runner-up 0.929
+D     pass 1 bars  1- 4  similarity 0.994  runner-up 0.868
+D     pass 1 bars  5- 8  similarity 0.982  runner-up 0.860
+D     pass 1 bars  9-12  similarity 0.995  runner-up 0.876
+D     pass 1 bars 13-16  similarity 0.977  runner-up 0.937
+D     pass 2 bars  1- 4  similarity 0.992  runner-up 0.865
+D     pass 2 bars  5- 8  similarity 0.980  runner-up 0.856
+D     pass 2 bars  9-12  similarity 0.996  runner-up 0.869
+D     pass 2 bars 13-16  similarity 0.967  runner-up 0.921
+
+37 of 37 four-bar windows: the score at pitch is the best match; lowest similarity 0.967

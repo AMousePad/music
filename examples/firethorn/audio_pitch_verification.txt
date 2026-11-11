@@ -1,0 +1,66 @@
+Intro    bars  1- 2   4.8 s  similarity 0.953  runner-up 0.847
+Intro    bars  3- 4   6.2 s  similarity 0.877  runner-up 0.731
+Intro    bars  5- 6   4.6 s  similarity 0.968  runner-up 0.782
+Intro    bars  7- 8   6.2 s  similarity 0.931  runner-up 0.624
+Intro    bars  9-10   4.3 s  similarity 0.979  runner-up 0.814
+Intro    bars 11-12   5.1 s  similarity 0.983  runner-up 0.863
+Intro    bars 13-13   4.4 s  similarity 0.904  runner-up 0.852
+Theme    bars  1- 3   3.7 s  similarity 0.983  runner-up 0.845
+Theme    bars  4- 6   3.8 s  similarity 0.988  runner-up 0.883
+Theme    bars  7- 9   3.9 s  similarity 0.985  runner-up 0.876
+Theme    bars 10-12   3.8 s  similarity 0.961  runner-up 0.860
+Theme    bars 13-15   3.7 s  similarity 0.988  runner-up 0.853
+Theme    bars 16- 2   3.2 s  similarity 0.981  runner-up 0.837
+Var1     bars  3- 6   3.2 s  similarity 0.990  runner-up 0.889
+Var1     bars  7-10   3.2 s  similarity 0.997  runner-up 0.890
+Var1     bars 11-14   3.2 s  similarity 0.983  runner-up 0.901
+Var1     bars 15- 2   3.3 s  similarity 0.983  runner-up 0.790
+Var2     bars  3- 6   3.2 s  similarity 0.991  runner-up 0.924
+Var2     bars  7-10   3.2 s  similarity 0.994  runner-up 0.898
+Var2     bars 11-14   3.2 s  similarity 0.991  runner-up 0.904
+Var2     bars 15- 1   3.2 s  similarity 0.989  runner-up 0.735
+Var3     bars  2- 4   3.4 s  similarity 0.937  runner-up 0.747
+Var3     bars  5- 7   3.3 s  similarity 0.941  runner-up 0.900
+Var3     bars  8-10   3.3 s  similarity 0.968  runner-up 0.930
+Var3     bars 11-13   3.3 s  similarity 0.943  runner-up 0.941
+Var3     bars 14-16   3.6 s  similarity 0.984  runner-up 0.923
+Var4     bars  1- 2   3.2 s  similarity 0.977  runner-up 0.854
+Var4     bars  3- 4   3.1 s  similarity 0.978  runner-up 0.775
+Var4     bars  5- 6   3.1 s  similarity 0.975  runner-up 0.865
+Var4     bars  7- 8   3.1 s  similarity 0.977  runner-up 0.830
+Var4     bars  9-10   3.1 s  similarity 0.968  runner-up 0.826
+Var4     bars 11-12   3.0 s  similarity 0.934  runner-up 0.873
+Var4     bars 13-14   3.1 s  similarity 0.968  runner-up 0.889
+Var4     bars 15-16   3.5 s  similarity 0.969  runner-up 0.680
+Trans    bars  1- 2   4.6 s  similarity 0.921  runner-up 0.830
+Middle   bars  1- 2   4.2 s  similarity 0.971  runner-up 0.847
+Middle   bars  3- 4   4.3 s  similarity 0.992  runner-up 0.875
+Middle   bars  5- 6   4.2 s  similarity 0.981  runner-up 0.831
+Middle   bars  7- 8   4.3 s  similarity 0.987  runner-up 0.917
+Middle   bars  9-10   3.9 s  similarity 0.975  runner-up 0.865
+Middle   bars 11-12   3.9 s  similarity 0.997  runner-up 0.882
+Middle   bars 13-14   3.8 s  similarity 0.980  runner-up 0.741
+Middle   bars 15-16   4.2 s  similarity 0.987  runner-up 0.857
+Middle   bars 17-18   4.5 s  similarity 0.977  runner-up 0.851
+Middle   bars 19-20   4.5 s  similarity 0.987  runner-up 0.877
+Middle   bars 21-22   4.8 s  similarity 0.989  runner-up 0.868
+Middle   bars 23-24   7.1 s  similarity 0.991  runner-up 0.870
+Retrans  bars  1- 3   4.2 s  similarity 0.966  runner-up 0.702
+Retrans  bars  4- 6   3.4 s  similarity 0.994  runner-up 0.851
+Var5     bars  1- 4   3.7 s  similarity 0.991  runner-up 0.902
+Var5     bars  5- 8   3.6 s  similarity 0.993  runner-up 0.935
+Var5     bars  9-12   3.5 s  similarity 0.983  runner-up 0.925
+Var5     bars 13-16   4.1 s  similarity 0.985  runner-up 0.888
+Coda     bars  1- 4   3.3 s  similarity 0.986  runner-up 0.905
+Coda     bars  5- 8   3.3 s  similarity 0.982  runner-up 0.924
+Coda     bars  9-12   3.3 s  similarity 0.975  runner-up 0.890
+Coda     bars 13-16   3.3 s  similarity 0.969  runner-up 0.887
+Coda     bars 17-20   3.2 s  similarity 0.991  runner-up 0.892
+Coda     bars 21-24   3.1 s  similarity 0.986  runner-up 0.933
+Coda     bars 25-28   3.1 s  similarity 0.988  runner-up 0.895
+Coda     bars 29-32   3.1 s  similarity 0.973  runner-up 0.917
+Coda     bars 33-36   3.6 s  similarity 0.986  runner-up 0.958
+Coda     bars 37-40   3.8 s  similarity 0.983  runner-up 0.921
+Coda     bars 41-44   9.0 s  similarity 0.988  runner-up 0.724
+
+64 of 64 windows: the score at pitch is the best match; lowest similarity 0.877

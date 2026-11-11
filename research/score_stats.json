@@ -1,0 +1,1119 @@
+[
+ {
+  "piece": "Op.9 No.1",
+  "file": "009-1b-Sm-001.krn",
+  "metre": "6/4",
+  "key_sig_sharps": -5,
+  "bars": 86,
+  "bar_quarters": 6.0,
+  "melody": {
+   "notes": 506,
+   "low": 53,
+   "high": 101,
+   "median": 77.0,
+   "pct_step": 62.0,
+   "pct_repeat": 7.7,
+   "pct_third": 18.4,
+   "pct_4th_5th": 6.3,
+   "pct_6th_plus": 5.5,
+   "pct_up": 40.4,
+   "pct_down": 51.9,
+   "largest_leap": 27,
+   "grace_notes": 10,
+   "ornaments_marked": 2,
+   "tuplet_notes": 128,
+   "top_durations": [
+    [
+     0.5,
+     156
+    ],
+    [
+     1.0,
+     102
+    ],
+    [
+     3.0,
+     49
+    ],
+    [
+     0.333,
+     46
+    ],
+    [
+     0.273,
+     44
+    ],
+    [
+     2.0,
+     39
+    ]
+   ]
+  },
+  "left_hand": {
+   "attacks_per_bar_median": 12,
+   "lowest_note_median": 41,
+   "lowest_note_min": 34,
+   "span_semitones_median": 19,
+   "span_semitones_p90": 24
+  },
+  "chromatic_share": 18.5
+ },
+ {
+  "piece": "Op.9 No.2",
+  "file": "009-1b-Sm-002.krn",
+  "metre": "12/8",
+  "key_sig_sharps": -3,
+  "bars": 35,
+  "bar_quarters": 6.0,
+  "melody": {
+   "notes": 429,
+   "low": 63,
+   "high": 99,
+   "median": 77,
+   "pct_step": 61.7,
+   "pct_repeat": 9.3,
+   "pct_third": 12.9,
+   "pct_4th_5th": 8.9,
+   "pct_6th_plus": 7.2,
+   "pct_up": 40.4,
+   "pct_down": 50.2,
+   "largest_leap": 24,
+   "grace_notes": 15,
+   "ornaments_marked": 11,
+   "tuplet_notes": 19,
+   "top_durations": [
+    [
+     0.25,
+     179
+    ],
+    [
+     0.5,
+     114
+    ],
+    [
+     1.5,
+     47
+    ],
+    [
+     1.0,
+     20
+    ],
+    [
+     0.115,
+     13
+    ],
+    [
+     0.125,
+     11
+    ]
+   ]
+  },
+  "left_hand": {
+   "attacks_per_bar_median": 12.0,
+   "lowest_note_median": 39.0,
+   "lowest_note_min": 32,
+   "span_semitones_median": 29.5,
+   "span_semitones_p90": 35
+  },
+  "chromatic_share": 15.4
+ },
+ {
+  "piece": "Op.9 No.3",
+  "file": "009-1b-Sm-003.krn",
+  "metre": "6/8",
+  "key_sig_sharps": 5,
+  "bars": 162,
+  "bar_quarters": 3.0,
+  "melody": {
+   "notes": 986,
+   "low": 62,
+   "high": 99,
+   "median": 74.0,
+   "pct_step": 56.0,
+   "pct_repeat": 12.6,
+   "pct_third": 11.9,
+   "pct_4th_5th": 13.3,
+   "pct_6th_plus": 6.2,
+   "pct_up": 44.1,
+   "pct_down": 43.4,
+   "largest_leap": 21,
+   "grace_notes": 44,
+   "ornaments_marked": 4,
+   "tuplet_notes": 237,
+   "top_durations": [
+    [
+     0.5,
+     195
+    ],
+    [
+     0.25,
+     151
+    ],
+    [
+     0.167,
+     118
+    ],
+    [
+     1.0,
+     100
+    ],
+    [
+     0.75,
+     49
+    ],
+    [
+     0.125,
+     44
+    ]
+   ]
+  },
+  "left_hand": {
+   "attacks_per_bar_median": 6.0,
+   "lowest_note_median": 43.0,
+   "lowest_note_min": 35,
+   "span_semitones_median": 19.0,
+   "span_semitones_p90": 22
+  },
+  "chromatic_share": 27.6
+ },
+ {
+  "piece": "Op.15 No.1",
+  "file": "015-1b-Sm-001.krn",
+  "metre": "3/4",
+  "key_sig_sharps": -1,
+  "bars": 75,
+  "bar_quarters": 3.0,
+  "melody": {
+   "notes": 646,
+   "low": 41,
+   "high": 86,
+   "median": 72.0,
+   "pct_step": 27.1,
+   "pct_repeat": 3.3,
+   "pct_third": 38.8,
+   "pct_4th_5th": 24.2,
+   "pct_6th_plus": 6.7,
+   "pct_up": 49.1,
+   "pct_down": 47.6,
+   "largest_leap": 38,
+   "grace_notes": 55,
+   "ornaments_marked": 0,
+   "tuplet_notes": 436,
+   "top_durations": [
+    [
+     0.167,
+     375
+    ],
+    [
+     1.0,
+     80
+    ],
+    [
+     0.25,
+     33
+    ],
+    [
+     0.143,
+     19
+    ],
+    [
+     2.0,
+     17
+    ],
+    [
+     0.75,
+     17
+    ]
+   ]
+  },
+  "left_hand": {
+   "attacks_per_bar_median": 3.0,
+   "lowest_note_median": 60.0,
+   "lowest_note_min": 53,
+   "span_semitones_median": 2.0,
+   "span_semitones_p90": 8
+  },
+  "chromatic_share": 37.4
+ },
+ {
+  "piece": "Op.15 No.2",
+  "file": "015-1b-Sm-002.krn",
+  "metre": "2/4",
+  "key_sig_sharps": 6,
+  "bars": 63,
+  "bar_quarters": 2.0,
+  "melody": {
+   "notes": 525,
+   "low": 49,
+   "high": 99,
+   "median": 70,
+   "pct_step": 53.4,
+   "pct_repeat": 11.1,
+   "pct_third": 19.3,
+   "pct_4th_5th": 9.4,
+   "pct_6th_plus": 6.9,
+   "pct_up": 35.1,
+   "pct_down": 53.8,
+   "largest_leap": 33,
+   "grace_notes": 32,
+   "ornaments_marked": 4,
+   "tuplet_notes": 284,
+   "top_durations": [
+    [
+     0.083,
+     105
+    ],
+    [
+     0.25,
+     62
+    ],
+    [
+     0.5,
+     47
+    ],
+    [
+     0.125,
+     42
+    ],
+    [
+     0.05,
+     41
+    ],
+    [
+     0.067,
+     30
+    ]
+   ]
+  },
+  "left_hand": {
+   "attacks_per_bar_median": 4,
+   "lowest_note_median": 42,
+   "lowest_note_min": 25,
+   "span_semitones_median": 19,
+   "span_semitones_p90": 22
+  },
+  "chromatic_share": 14.6
+ },
+ {
+  "piece": "Op.15 No.3",
+  "file": "015-1b-Sm-003.krn",
+  "metre": "3/4",
+  "key_sig_sharps": -2,
+  "bars": 153,
+  "bar_quarters": 3.0,
+  "melody": {
+   "notes": 350,
+   "low": 61,
+   "high": 90,
+   "median": 71.0,
+   "pct_step": 52.7,
+   "pct_repeat": 16.9,
+   "pct_third": 11.7,
+   "pct_4th_5th": 9.7,
+   "pct_6th_plus": 8.9,
+   "pct_up": 41.3,
+   "pct_down": 41.8,
+   "largest_leap": 15,
+   "grace_notes": 2,
+   "ornaments_marked": 0,
+   "tuplet_notes": 10,
+   "top_durations": [
+    [
+     1.0,
+     175
+    ],
+    [
+     2.0,
+     70
+    ],
+    [
+     0.5,
+     48
+    ],
+    [
+     3.0,
+     33
+    ],
+    [
+     0.333,
+     10
+    ],
+    [
+     0.75,
+     6
+    ]
+   ]
+  },
+  "left_hand": {
+   "attacks_per_bar_median": 2,
+   "lowest_note_median": 45,
+   "lowest_note_min": 24,
+   "span_semitones_median": 15,
+   "span_semitones_p90": 22
+  },
+  "chromatic_share": 20.0
+ },
+ {
+  "piece": "Op.27 No.1",
+  "file": "027-1-Sm-001.krn",
+  "metre": "4/4",
+  "key_sig_sharps": 4,
+  "bars": 60,
+  "bar_quarters": 4.0,
+  "melody": {
+   "notes": 193,
+   "low": 60,
+   "high": 88,
+   "median": 76,
+   "pct_step": 38.0,
+   "pct_repeat": 30.7,
+   "pct_third": 12.5,
+   "pct_4th_5th": 9.4,
+   "pct_6th_plus": 9.4,
+   "pct_up": 27.1,
+   "pct_down": 42.2,
+   "largest_leap": 14,
+   "grace_notes": 1,
+   "ornaments_marked": 0,
+   "tuplet_notes": 23,
+   "top_durations": [
+    [
+     1.0,
+     81
+    ],
+    [
+     0.25,
+     23
+    ],
+    [
+     2.0,
+     21
+    ],
+    [
+     0.333,
+     16
+    ],
+    [
+     0.75,
+     13
+    ],
+    [
+     0.5,
+     11
+    ]
+   ]
+  },
+  "left_hand": {
+   "attacks_per_bar_median": 9.0,
+   "lowest_note_median": 37.0,
+   "lowest_note_min": 25,
+   "span_semitones_median": 21.0,
+   "span_semitones_p90": 29
+  },
+  "chromatic_share": 17.9
+ },
+ {
+  "piece": "Op.27 No.2",
+  "file": "027-1-Sm-002.krn",
+  "metre": "6/8",
+  "key_sig_sharps": -5,
+  "bars": 77,
+  "bar_quarters": 3.0,
+  "melody": {
+   "notes": 656,
+   "low": 61,
+   "high": 101,
+   "median": 78.0,
+   "pct_step": 48.2,
+   "pct_repeat": 16.9,
+   "pct_third": 13.1,
+   "pct_4th_5th": 13.0,
+   "pct_6th_plus": 8.7,
+   "pct_up": 40.8,
+   "pct_down": 42.3,
+   "largest_leap": 24,
+   "grace_notes": 60,
+   "ornaments_marked": 1,
+   "tuplet_notes": 189,
+   "top_durations": [
+    [
+     0.25,
+     148
+    ],
+    [
+     0.167,
+     139
+    ],
+    [
+     0.5,
+     105
+    ],
+    [
+     0.062,
+     48
+    ],
+    [
+     0.125,
+     35
+    ],
+    [
+     1.5,
+     31
+    ]
+   ]
+  },
+  "left_hand": {
+   "attacks_per_bar_median": 12,
+   "lowest_note_median": 44,
+   "lowest_note_min": 32,
+   "span_semitones_median": 21,
+   "span_semitones_p90": 29
+  },
+  "chromatic_share": 17.7
+ },
+ {
+  "piece": "Op.32 No.1",
+  "file": "032-1-Sm-001.krn",
+  "metre": "4/4",
+  "key_sig_sharps": 5,
+  "bars": 70,
+  "bar_quarters": 4.0,
+  "melody": {
+   "notes": 475,
+   "low": 54,
+   "high": 95,
+   "median": 71,
+   "pct_step": 55.9,
+   "pct_repeat": 11.6,
+   "pct_third": 16.0,
+   "pct_4th_5th": 10.5,
+   "pct_6th_plus": 5.9,
+   "pct_up": 37.8,
+   "pct_down": 50.6,
+   "largest_leap": 27,
+   "grace_notes": 46,
+   "ornaments_marked": 4,
+   "tuplet_notes": 83,
+   "top_durations": [
+    [
+     1.0,
+     123
+    ],
+    [
+     0.5,
+     77
+    ],
+    [
+     0.25,
+     72
+    ],
+    [
+     0.125,
+     26
+    ],
+    [
+     0.2,
+     20
+    ],
+    [
+     0.333,
+     20
+    ]
+   ]
+  },
+  "left_hand": {
+   "attacks_per_bar_median": 8.0,
+   "lowest_note_median": 42.0,
+   "lowest_note_min": 29,
+   "span_semitones_median": 19.0,
+   "span_semitones_p90": 31
+  },
+  "chromatic_share": 15.4
+ },
+ {
+  "piece": "Op.32 No.2",
+  "file": "032-1-Sm-002.krn",
+  "metre": "4/4",
+  "key_sig_sharps": -4,
+  "bars": 1,
+  "bar_quarters": 4.0,
+  "melody": {
+   "notes": 645,
+   "low": 60,
+   "high": 84,
+   "median": 72,
+   "pct_step": 72.7,
+   "pct_repeat": 10.4,
+   "pct_third": 9.8,
+   "pct_4th_5th": 4.3,
+   "pct_6th_plus": 2.8,
+   "pct_up": 40.2,
+   "pct_down": 49.4,
+   "largest_leap": 11,
+   "grace_notes": 88,
+   "ornaments_marked": 10,
+   "tuplet_notes": 169,
+   "top_durations": [
+    [
+     0.5,
+     232
+    ],
+    [
+     1.0,
+     120
+    ],
+    [
+     0.2,
+     55
+    ],
+    [
+     0.333,
+     36
+    ],
+    [
+     0.143,
+     33
+    ],
+    [
+     0.25,
+     23
+    ]
+   ]
+  },
+  "left_hand": {
+   "attacks_per_bar_median": 12.0,
+   "lowest_note_median": 44.0,
+   "lowest_note_min": 30,
+   "span_semitones_median": 19.0,
+   "span_semitones_p90": 24
+  },
+  "chromatic_share": 23.6
+ },
+ {
+  "piece": "Op.37 No.1",
+  "file": "037-1-BH-001.krn",
+  "metre": "4/4",
+  "key_sig_sharps": -2,
+  "bars": 93,
+  "bar_quarters": 4.0,
+  "melody": {
+   "notes": 648,
+   "low": 58,
+   "high": 83,
+   "median": 70.0,
+   "pct_step": 63.7,
+   "pct_repeat": 15.6,
+   "pct_third": 9.1,
+   "pct_4th_5th": 6.6,
+   "pct_6th_plus": 4.9,
+   "pct_up": 45.1,
+   "pct_down": 39.3,
+   "largest_leap": 13,
+   "grace_notes": 167,
+   "ornaments_marked": 3,
+   "tuplet_notes": 66,
+   "top_durations": [
+    [
+     1.0,
+     202
+    ],
+    [
+     0.5,
+     77
+    ],
+    [
+     0.333,
+     60
+    ],
+    [
+     0.25,
+     48
+    ],
+    [
+     0.75,
+     34
+    ],
+    [
+     0.125,
+     32
+    ]
+   ]
+  },
+  "left_hand": {
+   "attacks_per_bar_median": 4.0,
+   "lowest_note_median": 41.0,
+   "lowest_note_min": 24,
+   "span_semitones_median": 17.0,
+   "span_semitones_p90": 31
+  },
+  "chromatic_share": 9.7
+ },
+ {
+  "piece": "Op.37 No.2",
+  "file": "037-1-BH-002.krn",
+  "metre": "6/8",
+  "key_sig_sharps": 1,
+  "bars": 52,
+  "bar_quarters": 3.0,
+  "melody": {
+   "notes": 484,
+   "low": 47,
+   "high": 98,
+   "median": 72.5,
+   "pct_step": 53.8,
+   "pct_repeat": 5.6,
+   "pct_third": 15.9,
+   "pct_4th_5th": 8.7,
+   "pct_6th_plus": 15.9,
+   "pct_up": 44.7,
+   "pct_down": 49.7,
+   "largest_leap": 17,
+   "grace_notes": 8,
+   "ornaments_marked": 0,
+   "tuplet_notes": 0,
+   "top_durations": [
+    [
+     0.25,
+     281
+    ],
+    [
+     0.5,
+     93
+    ],
+    [
+     1.0,
+     87
+    ],
+    [
+     1.5,
+     14
+    ],
+    [
+     3.0,
+     1
+    ]
+   ]
+  },
+  "left_hand": {
+   "attacks_per_bar_median": 3,
+   "lowest_note_median": 40,
+   "lowest_note_min": 24,
+   "span_semitones_median": 16,
+   "span_semitones_p90": 26
+  },
+  "chromatic_share": 33.7
+ },
+ {
+  "piece": "Op.48 No.1",
+  "file": "048-1-BH-001.krn",
+  "metre": "4/4",
+  "key_sig_sharps": -3,
+  "bars": 81,
+  "bar_quarters": 4.0,
+  "melody": {
+   "notes": 753,
+   "low": 51,
+   "high": 100,
+   "median": 74,
+   "pct_step": 38.2,
+   "pct_repeat": 24.6,
+   "pct_third": 15.4,
+   "pct_4th_5th": 13.8,
+   "pct_6th_plus": 8.0,
+   "pct_up": 38.8,
+   "pct_down": 36.6,
+   "largest_leap": 33,
+   "grace_notes": 30,
+   "ornaments_marked": 1,
+   "tuplet_notes": 395,
+   "top_durations": [
+    [
+     0.25,
+     228
+    ],
+    [
+     0.333,
+     174
+    ],
+    [
+     0.167,
+     126
+    ],
+    [
+     1.0,
+     85
+    ],
+    [
+     0.5,
+     57
+    ],
+    [
+     2.0,
+     18
+    ]
+   ]
+  },
+  "left_hand": {
+   "attacks_per_bar_median": 6,
+   "lowest_note_median": 32,
+   "lowest_note_min": 24,
+   "span_semitones_median": 29,
+   "span_semitones_p90": 39
+  },
+  "chromatic_share": 18.8
+ },
+ {
+  "piece": "Op.48 No.2",
+  "file": "048-1-BH-002.krn",
+  "metre": "4/4",
+  "key_sig_sharps": 3,
+  "bars": 137,
+  "bar_quarters": 4.0,
+  "melody": {
+   "notes": 801,
+   "low": 34,
+   "high": 94,
+   "median": 71,
+   "pct_step": 59.1,
+   "pct_repeat": 8.5,
+   "pct_third": 14.0,
+   "pct_4th_5th": 8.2,
+   "pct_6th_plus": 10.1,
+   "pct_up": 40.8,
+   "pct_down": 50.8,
+   "largest_leap": 33,
+   "grace_notes": 82,
+   "ornaments_marked": 11,
+   "tuplet_notes": 153,
+   "top_durations": [
+    [
+     0.5,
+     311
+    ],
+    [
+     1.0,
+     129
+    ],
+    [
+     0.2,
+     60
+    ],
+    [
+     0.333,
+     55
+    ],
+    [
+     2.0,
+     51
+    ],
+    [
+     0.25,
+     31
+    ]
+   ]
+  },
+  "left_hand": {
+   "attacks_per_bar_median": 8,
+   "lowest_note_median": 42,
+   "lowest_note_min": 25,
+   "span_semitones_median": 16,
+   "span_semitones_p90": 20
+  },
+  "chromatic_share": 29.9
+ },
+ {
+  "piece": "Op.55 No.1",
+  "file": "055-1a-Sm-001.krn",
+  "metre": "4/4",
+  "key_sig_sharps": -4,
+  "bars": 102,
+  "bar_quarters": 4.0,
+  "melody": {
+   "notes": 677,
+   "low": 47,
+   "high": 101,
+   "median": 72,
+   "pct_step": 43.2,
+   "pct_repeat": 9.6,
+   "pct_third": 20.7,
+   "pct_4th_5th": 15.7,
+   "pct_6th_plus": 10.8,
+   "pct_up": 44.8,
+   "pct_down": 45.6,
+   "largest_leap": 24,
+   "grace_notes": 39,
+   "ornaments_marked": 4,
+   "tuplet_notes": 340,
+   "top_durations": [
+    [
+     0.333,
+     333
+    ],
+    [
+     1.0,
+     130
+    ],
+    [
+     0.25,
+     60
+    ],
+    [
+     2.0,
+     50
+    ],
+    [
+     0.75,
+     32
+    ],
+    [
+     0.5,
+     22
+    ]
+   ]
+  },
+  "left_hand": {
+   "attacks_per_bar_median": 4.0,
+   "lowest_note_median": 41.0,
+   "lowest_note_min": 34,
+   "span_semitones_median": 21.0,
+   "span_semitones_p90": 28
+  },
+  "chromatic_share": 17.9
+ },
+ {
+  "piece": "Op.55 No.2",
+  "file": "055-1a-Sm-002.krn",
+  "metre": "12/8",
+  "key_sig_sharps": -3,
+  "bars": 67,
+  "bar_quarters": 6.0,
+  "melody": {
+   "notes": 513,
+   "low": 53,
+   "high": 94,
+   "median": 74,
+   "pct_step": 53.7,
+   "pct_repeat": 7.8,
+   "pct_third": 8.4,
+   "pct_4th_5th": 14.5,
+   "pct_6th_plus": 15.6,
+   "pct_up": 44.7,
+   "pct_down": 47.5,
+   "largest_leap": 21,
+   "grace_notes": 26,
+   "ornaments_marked": 8,
+   "tuplet_notes": 93,
+   "top_durations": [
+    [
+     1.5,
+     113
+    ],
+    [
+     0.5,
+     105
+    ],
+    [
+     1.0,
+     70
+    ],
+    [
+     0.3,
+     59
+    ],
+    [
+     0.25,
+     51
+    ],
+    [
+     3.0,
+     28
+    ]
+   ]
+  },
+  "left_hand": {
+   "attacks_per_bar_median": 12,
+   "lowest_note_median": 41,
+   "lowest_note_min": 27,
+   "span_semitones_median": 27,
+   "span_semitones_p90": 31
+  },
+  "chromatic_share": 14.6
+ },
+ {
+  "piece": "Op.62 No.1",
+  "file": "062-1-BH-001.krn",
+  "metre": "4/4",
+  "key_sig_sharps": 5,
+  "bars": 94,
+  "bar_quarters": 4.0,
+  "melody": {
+   "notes": 779,
+   "low": 54,
+   "high": 101,
+   "median": 73,
+   "pct_step": 54.0,
+   "pct_repeat": 13.8,
+   "pct_third": 14.7,
+   "pct_4th_5th": 7.3,
+   "pct_6th_plus": 10.3,
+   "pct_up": 37.3,
+   "pct_down": 49.0,
+   "largest_leap": 21,
+   "grace_notes": 134,
+   "ornaments_marked": 50,
+   "tuplet_notes": 39,
+   "top_durations": [
+    [
+     0.5,
+     241
+    ],
+    [
+     0.25,
+     215
+    ],
+    [
+     1.0,
+     81
+    ],
+    [
+     2.0,
+     36
+    ],
+    [
+     0.083,
+     18
+    ],
+    [
+     0.75,
+     12
+    ]
+   ]
+  },
+  "left_hand": {
+   "attacks_per_bar_median": 1,
+   "lowest_note_median": 37,
+   "lowest_note_min": 31,
+   "span_semitones_median": 22,
+   "span_semitones_p90": 22
+  },
+  "chromatic_share": 20.8
+ },
+ {
+  "piece": "Op.62 No.2",
+  "file": "062-1-BH-002.krn",
+  "metre": "4/4",
+  "key_sig_sharps": 4,
+  "bars": 82,
+  "bar_quarters": 4.0,
+  "melody": {
+   "notes": 656,
+   "low": 49,
+   "high": 92,
+   "median": 68.0,
+   "pct_step": 47.2,
+   "pct_repeat": 9.2,
+   "pct_third": 16.0,
+   "pct_4th_5th": 17.1,
+   "pct_6th_plus": 10.5,
+   "pct_up": 48.2,
+   "pct_down": 42.6,
+   "largest_leap": 21,
+   "grace_notes": 16,
+   "ornaments_marked": 3,
+   "tuplet_notes": 83,
+   "top_durations": [
+    [
+     0.25,
+     242
+    ],
+    [
+     0.5,
+     185
+    ],
+    [
+     1.0,
+     66
+    ],
+    [
+     0.333,
+     32
+    ],
+    [
+     2.0,
+     26
+    ],
+    [
+     1.5,
+     19
+    ]
+   ]
+  },
+  "left_hand": {
+   "attacks_per_bar_median": 4.0,
+   "lowest_note_median": 35.0,
+   "lowest_note_min": 27,
+   "span_semitones_median": 27.5,
+   "span_semitones_p90": 33
+  },
+  "chromatic_share": 18.0
+ },
+ {
+  "piece": "Op.72 No.1",
+  "file": "072-1-MEIf-001-nocturne.krn",
+  "metre": "4/4",
+  "key_sig_sharps": 1,
+  "bars": 57,
+  "bar_quarters": 4.0,
+  "melody": {
+   "notes": 266,
+   "low": 40,
+   "high": 95,
+   "median": 74.5,
+   "pct_step": 52.8,
+   "pct_repeat": 25.3,
+   "pct_third": 9.4,
+   "pct_4th_5th": 5.7,
+   "pct_6th_plus": 6.8,
+   "pct_up": 39.6,
+   "pct_down": 35.1,
+   "largest_leap": 32,
+   "grace_notes": 17,
+   "ornaments_marked": 8,
+   "tuplet_notes": 87,
+   "top_durations": [
+    [
+     1.0,
+     54
+    ],
+    [
+     0.5,
+     49
+    ],
+    [
+     0.333,
+     43
+    ],
+    [
+     2.0,
+     36
+    ],
+    [
+     3.0,
+     14
+    ],
+    [
+     0.167,
+     13
+    ]
+   ]
+  },
+  "left_hand": {
+   "attacks_per_bar_median": 12,
+   "lowest_note_median": 40,
+   "lowest_note_min": 30,
+   "span_semitones_median": 21,
+   "span_semitones_p90": 26
+  },
+  "chromatic_share": 19.2
+ }
+]

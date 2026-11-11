@@ -1,0 +1,546 @@
+{
+  "title": "The Last Lamp - Nocturne in F minor",
+  "seed": 11112026,
+  "composition": {
+    "bars": 60,
+    "notes": 1716,
+    "melody_notes": 534,
+    "melody_low": "E4",
+    "melody_high": "G6",
+    "melody_median": "F#5",
+    "pct_step": 58.7,
+    "pct_repeat": 6.4,
+    "pct_third": 27.4,
+    "pct_4th_5th": 4.5,
+    "pct_6th_plus": 3.0,
+    "grace_notes": 1,
+    "fioritura_notes": 279,
+    "lh_attacks_per_bar_median": 12.0,
+    "lh_lowest_median": "C#2",
+    "lh_span_median": 23.5,
+    "chromatic_share": 14.5,
+    "melody_tone_types": {
+      "chord tone": 404,
+      "chord extension (9th/13th) left by leap": 4,
+      "passing or neighbour note": 96,
+      "appoggiatura / accented dissonance": 17,
+      "escape / changing note (step in, third out)": 10,
+      "incomplete neighbour (leap in, step out)": 3
+    },
+    "inner_voice_dissonances_resolving_by_step": 19
+  },
+  "issues": [],
+  "read_boundary": "No files under the repository's out/ directory are inputs to this build.",
+  "performance": {
+    "key_strokes": 1736,
+    "note_end_seconds": 310.5565478774833,
+    "velocities": [
+      23,
+      112
+    ],
+    "repeated_key_release_corrections": 5
+  },
+  "difficulty": {
+    "target": "Advanced concert level, approximately Henle 8; an editorial estimate, not an official grading",
+    "independent_right_hand_voice_bars": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      29,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      53,
+      54,
+      55,
+      56,
+      57,
+      59
+    ],
+    "double_note_or_octave_bars": [
+      11,
+      12,
+      14,
+      27,
+      28,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      60
+    ],
+    "running_sixteenth_accompaniment_bars": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "ornament_groups": [
+      {
+        "notes": 4,
+        "span_in_eighths": 3.0
+      },
+      {
+        "notes": 6,
+        "span_in_eighths": 3.0
+      },
+      {
+        "notes": 7,
+        "span_in_eighths": 3.0
+      },
+      {
+        "notes": 8,
+        "span_in_eighths": 3.0
+      },
+      {
+        "notes": 9,
+        "span_in_eighths": 3.0
+      },
+      {
+        "notes": 11,
+        "span_in_eighths": 3.0
+      },
+      {
+        "notes": 11,
+        "span_in_eighths": 6.0
+      },
+      {
+        "notes": 12,
+        "span_in_eighths": 3.0
+      },
+      {
+        "notes": 13,
+        "span_in_eighths": 3.0
+      },
+      {
+        "notes": 19,
+        "span_in_eighths": 6.0
+      },
+      {
+        "notes": 52,
+        "span_in_eighths": 9.0
+      }
+    ],
+    "full_bar_melody_rests": [
+      1
+    ],
+    "cadential_breaths_bars": [
+      10,
+      18,
+      26,
+      40,
+      48,
+      52
+    ],
+    "major_sections": {
+      "theme": [
+        3,
+        18
+      ],
+      "duet_and_development": [
+        19,
+        34
+      ],
+      "climax_and_cadenza": [
+        35,
+        40
+      ],
+      "return": [
+        41,
+        48
+      ],
+      "coda": [
+        49,
+        60
+      ]
+    }
+  },
+  "master": {
+    "input_lufs": -26.818814190078825,
+    "gain_db": 4.460987567901611,
+    "output_lufs": -22.36474971237535,
+    "true_peak_db": -1.0000003576278687
+  },
+  "verification": {
+    "midi_note_ons": 1736,
+    "unreleased_midi_notes": 0,
+    "engraved_score_pitch_counts_match": true,
+    "overlapping_midi_restrikes": 0,
+    "pdf_pages": 6,
+    "engraving_warnings": 0,
+    "audio_seconds": 313.021,
+    "sample_peak_dbfs": -1.011,
+    "finite_unclipped_audio": true,
+    "compressed_formats_decode": true,
+    "pedal_resonance_through_breaths": [
+      {
+        "bar": 10,
+        "minimum_pedal_depth": 0.6929,
+        "damper_engagement_ms": 0.0
+      },
+      {
+        "bar": 18,
+        "minimum_pedal_depth": 0.6772,
+        "damper_engagement_ms": 0.0
+      },
+      {
+        "bar": 26,
+        "minimum_pedal_depth": 0.811,
+        "damper_engagement_ms": 0.0
+      },
+      {
+        "bar": 40,
+        "minimum_pedal_depth": 0.7638,
+        "damper_engagement_ms": 0.0
+      },
+      {
+        "bar": 52,
+        "minimum_pedal_depth": 0.7087,
+        "damper_engagement_ms": 0.0
+      }
+    ],
+    "bars_matching_original_pitch": 60,
+    "bars_checked": 60,
+    "pitch_check": [
+      {
+        "bar": 1,
+        "similarity": 0.9465,
+        "best_transposition": 0
+      },
+      {
+        "bar": 2,
+        "similarity": 0.9788,
+        "best_transposition": 0
+      },
+      {
+        "bar": 3,
+        "similarity": 0.9851,
+        "best_transposition": 0
+      },
+      {
+        "bar": 4,
+        "similarity": 0.9432,
+        "best_transposition": 0
+      },
+      {
+        "bar": 5,
+        "similarity": 0.9738,
+        "best_transposition": 0
+      },
+      {
+        "bar": 6,
+        "similarity": 0.9841,
+        "best_transposition": 0
+      },
+      {
+        "bar": 7,
+        "similarity": 0.978,
+        "best_transposition": 0
+      },
+      {
+        "bar": 8,
+        "similarity": 0.9672,
+        "best_transposition": 0
+      },
+      {
+        "bar": 9,
+        "similarity": 0.9766,
+        "best_transposition": 0
+      },
+      {
+        "bar": 10,
+        "similarity": 0.938,
+        "best_transposition": 0
+      },
+      {
+        "bar": 11,
+        "similarity": 0.9748,
+        "best_transposition": 0
+      },
+      {
+        "bar": 12,
+        "similarity": 0.9798,
+        "best_transposition": 0
+      },
+      {
+        "bar": 13,
+        "similarity": 0.9829,
+        "best_transposition": 0
+      },
+      {
+        "bar": 14,
+        "similarity": 0.9802,
+        "best_transposition": 0
+      },
+      {
+        "bar": 15,
+        "similarity": 0.9825,
+        "best_transposition": 0
+      },
+      {
+        "bar": 16,
+        "similarity": 0.9727,
+        "best_transposition": 0
+      },
+      {
+        "bar": 17,
+        "similarity": 0.9759,
+        "best_transposition": 0
+      },
+      {
+        "bar": 18,
+        "similarity": 0.949,
+        "best_transposition": 0
+      },
+      {
+        "bar": 19,
+        "similarity": 0.9807,
+        "best_transposition": 0
+      },
+      {
+        "bar": 20,
+        "similarity": 0.9623,
+        "best_transposition": 0
+      },
+      {
+        "bar": 21,
+        "similarity": 0.9798,
+        "best_transposition": 0
+      },
+      {
+        "bar": 22,
+        "similarity": 0.9866,
+        "best_transposition": 0
+      },
+      {
+        "bar": 23,
+        "similarity": 0.9757,
+        "best_transposition": 0
+      },
+      {
+        "bar": 24,
+        "similarity": 0.9825,
+        "best_transposition": 0
+      },
+      {
+        "bar": 25,
+        "similarity": 0.9872,
+        "best_transposition": 0
+      },
+      {
+        "bar": 26,
+        "similarity": 0.9606,
+        "best_transposition": 0
+      },
+      {
+        "bar": 27,
+        "similarity": 0.9875,
+        "best_transposition": 0
+      },
+      {
+        "bar": 28,
+        "similarity": 0.9837,
+        "best_transposition": 0
+      },
+      {
+        "bar": 29,
+        "similarity": 0.9866,
+        "best_transposition": 0
+      },
+      {
+        "bar": 30,
+        "similarity": 0.9875,
+        "best_transposition": 0
+      },
+      {
+        "bar": 31,
+        "similarity": 0.9762,
+        "best_transposition": 0
+      },
+      {
+        "bar": 32,
+        "similarity": 0.9819,
+        "best_transposition": 0
+      },
+      {
+        "bar": 33,
+        "similarity": 0.9822,
+        "best_transposition": 0
+      },
+      {
+        "bar": 34,
+        "similarity": 0.9877,
+        "best_transposition": 0
+      },
+      {
+        "bar": 35,
+        "similarity": 0.9751,
+        "best_transposition": 0
+      },
+      {
+        "bar": 36,
+        "similarity": 0.9816,
+        "best_transposition": 0
+      },
+      {
+        "bar": 37,
+        "similarity": 0.9851,
+        "best_transposition": 0
+      },
+      {
+        "bar": 38,
+        "similarity": 0.9902,
+        "best_transposition": 0
+      },
+      {
+        "bar": 39,
+        "similarity": 0.9868,
+        "best_transposition": 0
+      },
+      {
+        "bar": 40,
+        "similarity": 0.9103,
+        "best_transposition": 0
+      },
+      {
+        "bar": 41,
+        "similarity": 0.9721,
+        "best_transposition": 0
+      },
+      {
+        "bar": 42,
+        "similarity": 0.9742,
+        "best_transposition": 0
+      },
+      {
+        "bar": 43,
+        "similarity": 0.9806,
+        "best_transposition": 0
+      },
+      {
+        "bar": 44,
+        "similarity": 0.9836,
+        "best_transposition": 0
+      },
+      {
+        "bar": 45,
+        "similarity": 0.9715,
+        "best_transposition": 0
+      },
+      {
+        "bar": 46,
+        "similarity": 0.9641,
+        "best_transposition": 0
+      },
+      {
+        "bar": 47,
+        "similarity": 0.9458,
+        "best_transposition": 0
+      },
+      {
+        "bar": 48,
+        "similarity": 0.953,
+        "best_transposition": 0
+      },
+      {
+        "bar": 49,
+        "similarity": 0.9359,
+        "best_transposition": 0
+      },
+      {
+        "bar": 50,
+        "similarity": 0.963,
+        "best_transposition": 0
+      },
+      {
+        "bar": 51,
+        "similarity": 0.9514,
+        "best_transposition": 0
+      },
+      {
+        "bar": 52,
+        "similarity": 0.863,
+        "best_transposition": 0
+      },
+      {
+        "bar": 53,
+        "similarity": 0.9763,
+        "best_transposition": 0
+      },
+      {
+        "bar": 54,
+        "similarity": 0.987,
+        "best_transposition": 0
+      },
+      {
+        "bar": 55,
+        "similarity": 0.9555,
+        "best_transposition": 0
+      },
+      {
+        "bar": 56,
+        "similarity": 0.9747,
+        "best_transposition": 0
+      },
+      {
+        "bar": 57,
+        "similarity": 0.9647,
+        "best_transposition": 0
+      },
+      {
+        "bar": 58,
+        "similarity": 0.9456,
+        "best_transposition": 0
+      },
+      {
+        "bar": 59,
+        "similarity": 0.967,
+        "best_transposition": 0
+      },
+      {
+        "bar": 60,
+        "similarity": 0.9207,
+        "best_transposition": 0
+      }
+    ],
+    "limits": "Automated musical and technical checks; not human-auditioned. The pitch-class check cannot detect every wrong note."
+  }
+}

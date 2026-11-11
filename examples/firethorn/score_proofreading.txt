@@ -1,0 +1,4 @@
+Firethorn: 185 bars, 3126 notes, C#1 to F#7, 235.2 s at the planned tempi (before breaths and fermatas)
+  line tones: {'chord tone': 837, 'passing or neighbour note': 277, 'appoggiatura / incomplete neighbour': 7}
+  leaps beyond one hand position: {'leap24': 17, 'leap36': 4, 'leap17': 119, 'leap12': 173}
+issues: 0

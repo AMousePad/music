@@ -1,0 +1,48 @@
+measure                                              mine   pianists: min / median / max   verdict
+notes per second, whole piece                       12.88      10.10 /    15.58 /    20.67    within
+notes per second, median second                     12.00       8.00 /    14.50 /    21.00    within
+notes per second, busiest 10% of seconds            23.00      20.00 /    26.70 /    33.40    within
+notes per second, peak second                       47.00      30.00 /    44.00 /    62.00    within
+share of seconds with 12+ notes                      0.52       0.35 /     0.68 /     0.93    within
+gap between attacks in runs, fastest 5% (ms)        56.77      48.96 /    52.08 /    57.29    within
+same, fastest quarter (ms)                          88.02      66.41 /    76.04 /    93.75    within
+same, median (ms)                                  107.81      84.38 /   101.04 /   131.51    within
+share of attacks under 100 ms apart                  0.39       0.37 /     0.57 /     0.78    within
+repeated keys per minute                           108.76      85.72 /   191.20 /   437.30    within
+repeated key, fastest 10% (ms)                      97.92      82.03 /   102.21 /   151.95    within
+repeated key, median (ms)                          130.73     122.40 /   148.70 /   204.43    within
+leaps of an octave or more per minute               10.88       2.73 /    12.70 /    82.81    within
+leap, median gap (ms)                              136.20      57.94 /    93.10 /   143.23    within
+share of attacks: single notes                       0.53       0.29 /     0.56 /     0.65    within
+share of attacks: bare octaves                       0.08       0.01 /     0.07 /     0.16    within
+share of attacks: chords of 3+                       0.22       0.13 /     0.19 /     0.36    within
+notes per attack                                     1.91       1.58 /     1.77 /     2.44    within
+pitch, 5th percentile                               40.00      32.00 /    43.00 /    48.65    within
+pitch, median                                       69.00      63.00 /    71.50 /    79.00    within
+pitch, 95th percentile                              94.00      90.00 /    94.00 /    99.00    within
+share of notes above C6                              0.22       0.13 /     0.21 /     0.40    within
+share of notes above C7                              0.04       0.02 /     0.04 /     0.15    within
+share of notes below C2                              0.02       0.01 /     0.02 /     0.08    within
+velocity p05                                        40.00      30.00 /    38.00 /    47.25    within
+velocity p25                                        58.00      49.00 /    59.00 /    68.00    within
+velocity median                                     74.00      61.00 /    71.00 /    80.00    within
+velocity p75                                        88.00      71.00 /    82.00 /    91.00    within
+velocity p95                                        98.00      84.00 /    97.00 /   104.00    within
+velocity max                                       114.00     103.00 /   118.00 /   126.00    within
+share of notes at velocity 100+                      0.03       0.00 /     0.03 /     0.11    within
+share of notes under velocity 40                     0.05       0.03 /     0.06 /     0.11    within
+fast notes minus all notes (velocity)               -3.00     -16.00 /    -4.50 /     7.00    within
+key-hold ratio of fast notes, p25                    0.63       0.35 /     0.49 /     0.67    within
+same, median                                         0.81       0.56 /     0.80 /     1.18    within
+same, p75                                            1.04       0.81 /     1.22 /     2.27    within
+pedal: share of time down                            0.67       0.25 /     0.69 /     0.79    within
+pedal changes per minute                            64.02      18.96 /    41.36 /    83.99    within
+pedal down in dense seconds                          0.61       0.25 /     0.66 /     0.84    within
+pedal down in sparse seconds                         0.88       0.00 /     0.69 /     0.97    within
+density, quietest 5 s (notes/s)                      1.60       0.00 /     3.10 /    11.80    within
+density, busiest 5 s (notes/s)                      35.60      26.00 /    34.30 /    47.80    within
+loudness, softest 5 s (mean velocity)               41.23      24.62 /    41.51 /    58.30    within
+loudness, loudest 5 s                               95.74      76.02 /    88.03 /   103.10    within
+loudness spread over 5 s windows (s.d.)             15.66       6.11 /     9.93 /    16.32    within
+
+45 of 45 measures inside the range of the 46 recordings

@@ -1,0 +1,29 @@
+Nocturne in B minor: 47 bars, 1036 notes
+  bars: 47
+  notes: 1036
+  melody_notes: 372
+  melody_low: F#4
+  melody_high: B6
+  melody_median: G5
+  pct_step: 61.5
+  pct_repeat: 3.8
+  pct_third: 21.8
+  pct_4th_5th: 8.9
+  pct_6th_plus: 4.0
+  grace_notes: 3
+  fioritura_notes: 95
+  lh_attacks_per_bar_median: 12
+  lh_lowest_median: B1
+  lh_span_median: 26
+  chromatic_share: 13.0
+  melody_tone_types: {'chord tone': 281, 'appoggiatura / accented dissonance': 11, 'passing or neighbour note': 65, 'chord extension (9th/13th) left by leap': 2, 'incomplete neighbour (leap in, step out)': 6, 'anticipation': 5, 'escape / changing note (step in, third out)': 2}
+issues: 0
+
+against Chopin's 19 nocturnes (2nd-lowest / median / 2nd-highest):
+  % stepwise     mine   61.5   corpus  38.0 /  53.7 /  63.7   ok
+  % repeated     mine    3.8   corpus   5.6 /  11.1 /  25.3   outside
+  % thirds       mine   21.8   corpus   9.1 /  14.0 /  20.7   outside
+  % 4ths/5ths    mine    8.9   corpus   5.7 /   9.4 /  17.1   ok
+  % 6ths+        mine    4.0   corpus   4.9 /   8.0 /  15.6   outside
+  LH span (st)   mine   26.0   corpus  15.0 /  19.0 /  29.0   ok
+  chromatic %    mine   13.0   corpus  14.6 /  18.5 /  33.7   outside

@@ -1,0 +1,11 @@
+# Tested with Python 3.12 and the versions in the comments.
+numpy          # 2.4
+scipy          # 1.17
+soundfile      # 0.14
+soxr           # 1.1
+mido           # 1.3
+pyloudnorm     # 0.2
+matplotlib     # 3.10
+pretty_midi    # 0.2.11  (reading MIDI files: engine, research)
+music21        # 10.5    (research scripts)
+pypdf          # 6.14    (only for nocturne/last_lamp/verify.py)
