@@ -4,7 +4,7 @@ python engrave.py [out_dir]
 """
 import os, subprocess, sys
 HERE = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, HERE); sys.path.insert(0, os.path.join(HERE, "..", "engine"))
+sys.path.insert(0, HERE); sys.path.insert(0, os.path.join(HERE, "..", "..", "engine"))
 from lily import LILY, voice_to_ly, it
 import nocturne_bm as piece
 
@@ -91,7 +91,7 @@ def build_ly(sc):
 
 
 if __name__ == "__main__":
-    out = sys.argv[1] if len(sys.argv) > 1 else os.path.join(HERE, "..", "out", "nocturne_final")
+    out = sys.argv[1] if len(sys.argv) > 1 else os.path.join(HERE, "..", "..", "out", "nocturne_final")
     os.makedirs(out, exist_ok=True)
     sc = piece.build()
     ly = os.path.join(out, "nocturne_b_minor.ly")

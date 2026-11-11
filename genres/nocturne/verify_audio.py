@@ -11,12 +11,12 @@ import os, sys
 import numpy as np, soundfile as sf
 from scipy.signal import stft
 HERE = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, HERE); sys.path.insert(0, os.path.join(HERE, "..", "engine"))
+sys.path.insert(0, HERE); sys.path.insert(0, os.path.join(HERE, "..", "..", "engine"))
 import nocturne_bm as piece
 from perform import Performance
 
 tag = sys.argv[1] if len(sys.argv) > 1 else "final"
-wav = os.path.join(HERE, "..", "out", f"nocturne_{tag}", "nocturne_b_minor.wav")
+wav = os.path.join(HERE, "..", "..", "out", f"nocturne_{tag}", "nocturne_b_minor.wav")
 x, sr = sf.read(wav, always_2d=True)
 mono = x.mean(axis=1)
 sc = piece.build()

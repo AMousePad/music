@@ -5,7 +5,7 @@ tools/
 
 # build outputs; the finished results are kept in examples/
 out/
-nocturne/last_lamp/recording/
+genres/nocturne/last_lamp/recording/
 
 # lossless audio is rebuilt, never committed
 *.wav

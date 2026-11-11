@@ -45,10 +45,10 @@ sc.bar("F#5:2 C#6:2 B5 A5 G#5 A5",                       # right hand
 ```
 
 `bar()` also takes a second voice for either hand (`rh2`, `lh2`), a pedal hint and a
-texture name. The proof-readers and performers in the genre folders read the result.
+texture name. The proof-readers and performers in `genres/` read the result.
 
 ## Writing a new piece
 
-Copy the folder that is closest in style. Each has the same parts: the piece (notes
+Copy the folder in `genres/` that is closest in style. Each has the same parts: the piece (notes
 plus the interpretation plan), a proof-reader, a performer that inherits
 `PerformanceOutput` from `midi_out.py`, and build, engrave and verify scripts.

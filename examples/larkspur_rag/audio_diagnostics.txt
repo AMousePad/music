@@ -1,4 +1,4 @@
-file ../out/ragtime_final/larkspur_rag.wav
+file larkspur_rag.wav
  duration 200.9s  integrated -18.0 LUFS  sample peak -4.8 dBFS
  400ms RMS dB: p05 -26.8  p50 -22.3  p95 -18.9  max -16.5  => dynamic span p95-p05 8.0 dB
  LRA (p95-p10 of 3 s loudness) 5.2 LU
@@ -7,4 +7,4 @@ file ../out/ragtime_final/larkspur_rag.wav
  spectral centroid median 509 Hz
  max |dx| 0.0644 (p99.99 0.0427)  DC -5.44e-08
  last 12 s level: start -3.2 dB  end -111.8 dB
- wrote ../out/ragtime_final/spectrogram.png
+ wrote spectrogram.png

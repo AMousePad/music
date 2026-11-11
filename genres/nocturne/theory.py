@@ -4,7 +4,7 @@ python theory.py            -> report for the nocturne
 """
 import json, os, statistics, sys
 from collections import Counter
-sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "engine"))
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "engine"))
 from score import chord_pcs
 
 NAMES = ["C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"]
@@ -154,6 +154,6 @@ if __name__ == "__main__":
     import nocturne_bm
     sc = nocturne_bm.build()
     issues, stats = check(sc)
-    ref = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "research", "score_stats.json")
+    ref = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "research", "score_stats.json")
     if os.path.exists(ref):
         corpus_compare(stats, ref)

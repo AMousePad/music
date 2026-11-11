@@ -5,7 +5,7 @@ performance: for every note an onset, a release and a key velocity; for the feet
 continuous sustain-pedal curve and the una corda.
 
 The model is deliberately explicit - each rule corresponds to something pianists do and
-that the MAESTRO / ASAP measurements in ../research confirm:
+that the MAESTRO / ASAP measurements in ../../research confirm:
 
   timing    authored tempo curve x phrase breathing x within-bar lilt, plus "taken" time
             (breaths, placements, fermatas); fioriture are free inside their time span
@@ -23,7 +23,7 @@ that the MAESTRO / ASAP measurements in ../research confirm:
 """
 import math, os, sys
 import numpy as np
-sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "engine"))
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "engine"))
 from midi_out import PerformanceOutput
 
 

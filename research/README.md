@@ -38,6 +38,6 @@ python -I research/analyze_virtuoso.py      corpora/maestro/maestro-v3.0.0      
 `-I` runs Python in isolated mode, so nothing inside a downloaded folder can be
 imported by accident.
 
-The two `evaluate` scripts (`nocturne/evaluate.py`, `etude/evaluate_etude.py`) import
+The two `evaluate` scripts (`genres/nocturne/evaluate.py`, `genres/etude/evaluate_etude.py`) import
 `analyze_performances.py` and `analyze_virtuoso.py`, so a generated performance is
 measured by exactly the code that measured the pianists.

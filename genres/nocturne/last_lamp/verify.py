@@ -1,6 +1,6 @@
-"""Verify only this piece's newly created files. Never reads ../out.
+"""Verify only this piece's newly created files. Never reads the repository's out/ folder.
 
-python nocturne/last_lamp/verify.py
+python genres/nocturne/last_lamp/verify.py
 """
 from collections import Counter, defaultdict
 import json

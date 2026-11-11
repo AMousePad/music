@@ -1,14 +1,14 @@
 """Compose -> perform -> render.
 
 python build.py [--tag final] [--no-audio]
-Outputs go to ../out/nocturne_<tag>/ : performance MIDI, score MIDI, WAV (24-bit), FLAC, MP3,
+Outputs go to ../../out/nocturne_<tag>/ : performance MIDI, score MIDI, WAV (24-bit), FLAC, MP3,
 a figure of the interpretation and a spectrogram.
 """
 import argparse, json, os, subprocess, sys, time
 import numpy as np
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, HERE); sys.path.insert(0, os.path.join(HERE, "..", "engine"))
+sys.path.insert(0, HERE); sys.path.insert(0, os.path.join(HERE, "..", "..", "engine"))
 import nocturne_bm as piece
 from perform import Performance
 import theory
@@ -50,7 +50,7 @@ def main():
     ap.add_argument("--no-audio", action="store_true")
     ap.add_argument("--seed", type=int, default=1810)
     a = ap.parse_args()
-    out = os.path.join(HERE, "..", "out", f"nocturne_{a.tag}"); os.makedirs(out, exist_ok=True)
+    out = os.path.join(HERE, "..", "..", "out", f"nocturne_{a.tag}"); os.makedirs(out, exist_ok=True)
     sc = piece.build()
     issues, stats = theory.check(sc, verbose=False)
     print(f"score: {stats['bars']} bars, {stats['notes']} notes, {len(issues)} proof-reading issues")

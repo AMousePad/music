@@ -3,28 +3,28 @@
 An original classic rag in E-flat in the
 manner of Scott Joplin (no strain is quoted from him).
 
-- **Listen:** [larkspur_rag.mp3](../examples/larkspur_rag/larkspur_rag.mp3), 3:17
-- **Score:** [larkspur_rag.pdf](../examples/larkspur_rag/larkspur_rag.pdf) (3 pages, engraved with LilyPond)
-- **Performance data:** [larkspur_rag_performance.mid](../examples/larkspur_rag/larkspur_rag_performance.mid)
-- **Everything else** (score source, figures, check reports): [examples/larkspur_rag](../examples/larkspur_rag)
+- **Listen:** [larkspur_rag.mp3](../../examples/larkspur_rag/larkspur_rag.mp3), 3:17
+- **Score:** [larkspur_rag.pdf](../../examples/larkspur_rag/larkspur_rag.pdf) (3 pages, engraved with LilyPond)
+- **Performance data:** [larkspur_rag_performance.mid](../../examples/larkspur_rag/larkspur_rag_performance.mid)
+- **Everything else** (score source, figures, check reports): [examples/larkspur_rag](../../examples/larkspur_rag)
 
-![First page of the score](../examples/larkspur_rag/larkspur_rag-page1.png)
+![First page of the score](../../examples/larkspur_rag/larkspur_rag-page1.png)
 
 ```
-cd ragtime
+cd genres/ragtime
 python rag_theory.py                       # proof-read + compare with Joplin
-python build_rag.py --tag final            # perform + render -> ../out/ragtime_final
-python engrave_rag.py ../out/ragtime_final
+python build_rag.py --tag final            # perform + render -> ../../out/ragtime_final
+python engrave_rag.py ../../out/ragtime_final
 python verify_rag.py final
 ```
 
-Setup (Python packages, piano samples, LilyPond, ffmpeg) is described in the [top-level README](../README.md#setup). The build also writes lossless FLAC and 24-bit WAV; only the MP3 is stored in the repository.
+Setup (Python packages, piano samples, LilyPond, ffmpeg) is described in the [top-level README](../../README.md#setup). The build also writes lossless FLAC and 24-bit WAV; only the MP3 is stored in the repository.
 
 ## What was researched
 
 | Source | Used for |
 |---|---|
-| [Joplin's works, Humdrum edition](https://github.com/craigsapp/joplin) (Craig Sapp, CC BY-NC-SA 4.0) | Rhythm, texture, bass and melodic statistics of 33 rags in 2/4 (`../research/analyze_ragtime.py`), and Joplin's own tempo markings |
+| [Joplin's works, Humdrum edition](https://github.com/craigsapp/joplin) (Craig Sapp, CC BY-NC-SA 4.0) | Rhythm, texture, bass and melodic statistics of 33 rags in 2/4 (`../../research/analyze_ragtime.py`), and Joplin's own tempo markings |
 | [Bill Edwards, "Tempos and Pedaling in Ragtime Performance"](https://ragpiano.com/ragtime6.shtml) | Pedalling and touch |
 | [Classic rag](https://en.wikipedia.org/wiki/Classic_rag) | Form |
 
@@ -63,7 +63,7 @@ inside Joplin's range and the proof-reader reports 0 issues.
 - **Repeats:** each pass of a strain has its own dynamic level.
 - **Room:** a parlour-sized space (about 1 s of reverberation) instead of the concert hall.
 
-## Verification (`../examples/larkspur_rag/*.txt`)
+## Verification (`../../examples/larkspur_rag/*.txt`)
 
 | Check | Result |
 |---|---|

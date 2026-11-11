@@ -8,7 +8,7 @@ studied and put to work on one theme:
   * slow rhapsodic opening, stride bass, bravura octaves,
     interlocking octaves and a driven major-key close       (Liszt, Hungarian Rhapsodies)
 
-Notation: see ../engine/score.py.  Time unit: the sixteenth note; 2/4, 8 units a bar.
+Notation: see ../../engine/score.py.  Time unit: the sixteenth note; 2/4, 8 units a bar.
 A trailing ' marks a bell note.
 
 Form (185 bars)
@@ -29,7 +29,7 @@ Form (185 bars)
 """
 import os, re, sys
 HERE = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, os.path.join(HERE, "..", "engine"))
+sys.path.insert(0, os.path.join(HERE, "..", "..", "engine"))
 from score import Score, midi, _split, _TAIL, parse_harmony
 
 TITLE = "Firethorn"

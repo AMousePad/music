@@ -5,7 +5,7 @@ the first strain written out again before the trio, key change for the trio.
 """
 import os, subprocess, sys
 HERE = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, HERE); sys.path.insert(0, os.path.join(HERE, "..", "engine"))
+sys.path.insert(0, HERE); sys.path.insert(0, os.path.join(HERE, "..", "..", "engine"))
 import lily                         # shared note/chord/tie writer
 import larkspur_rag as piece
 
@@ -105,7 +105,7 @@ def build_ly():
 
 
 if __name__ == "__main__":
-    out = sys.argv[1] if len(sys.argv) > 1 else os.path.join(HERE, "..", "out", "ragtime_final")
+    out = sys.argv[1] if len(sys.argv) > 1 else os.path.join(HERE, "..", "..", "out", "ragtime_final")
     os.makedirs(out, exist_ok=True)
     ly = os.path.join(out, "larkspur_rag.ly")
     open(ly, "w", encoding="utf8").write(build_ly())

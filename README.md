@@ -11,10 +11,10 @@ existing music.
 
 | Piece | In the manner of | Length | Listen | Score | How it was made |
 |---|---|---|---|---|---|
-| Nocturne in B minor | Chopin's nocturnes | 4:12 | [MP3](examples/nocturne_b_minor/nocturne_b_minor.mp3) | [PDF](examples/nocturne_b_minor/nocturne_b_minor.pdf) | [nocturne/](nocturne/README.md) |
-| The Last Lamp, Nocturne in F minor | Chopin's nocturnes | 5:13 | [MP3](examples/the_last_lamp/the_last_lamp.mp3) | [PDF](examples/the_last_lamp/the_last_lamp.pdf) | [nocturne/last_lamp/](nocturne/last_lamp/README.md) |
-| Larkspur Rag | Scott Joplin's classic rags | 3:17 | [MP3](examples/larkspur_rag/larkspur_rag.mp3) | [PDF](examples/larkspur_rag/larkspur_rag.pdf) | [ragtime/](ragtime/README.md) |
-| Firethorn, Rhapsodie-Étude in F-sharp minor | Liszt's bravura pieces | 4:11 | [MP3](examples/firethorn/firethorn.mp3) | [PDF](examples/firethorn/firethorn.pdf) | [etude/](etude/README.md) |
+| Nocturne in B minor | Chopin's nocturnes | 4:12 | [MP3](examples/nocturne_b_minor/nocturne_b_minor.mp3) | [PDF](examples/nocturne_b_minor/nocturne_b_minor.pdf) | [genres/nocturne/](genres/nocturne/README.md) |
+| The Last Lamp, Nocturne in F minor | Chopin's nocturnes | 5:13 | [MP3](examples/the_last_lamp/the_last_lamp.mp3) | [PDF](examples/the_last_lamp/the_last_lamp.pdf) | [genres/nocturne/last_lamp/](genres/nocturne/last_lamp/README.md) |
+| Larkspur Rag | Scott Joplin's classic rags | 3:17 | [MP3](examples/larkspur_rag/larkspur_rag.mp3) | [PDF](examples/larkspur_rag/larkspur_rag.pdf) | [genres/ragtime/](genres/ragtime/README.md) |
+| Firethorn, Rhapsodie-Étude in F-sharp minor | Liszt's bravura pieces | 4:11 | [MP3](examples/firethorn/firethorn.mp3) | [PDF](examples/firethorn/firethorn.pdf) | [genres/etude/](genres/etude/README.md) |
 
 The pieces were written by AI coding agents working from short briefs: the Nocturne
 in B minor, Larkspur Rag and Firethorn with Claude Code, The Last Lamp with Codex on
@@ -23,7 +23,7 @@ the same engine.
 ## How a piece is made
 
 1. **Research.** Scores and recorded performances in the style are measured: how melodies move, how fast the hands go, how loud the playing is, how the pedal is used (`research/`).
-2. **Composition.** The piece is written as text, bar by bar, together with its harmony, for example [etude/firethorn.py](etude/firethorn.py). The notation is described in [engine/README.md](engine/README.md).
+2. **Composition.** The piece is written as text, bar by bar, together with its harmony, for example [genres/etude/firethorn.py](genres/etude/firethorn.py). The notation is described in [engine/README.md](engine/README.md).
 3. **Proof-reading.** A checker reports accompaniment notes outside the harmony, unresolved dissonances, parallel fifths and octaves, and passages a hand cannot play.
 4. **Performance.** A performer turns the score and an interpretation plan (tempo, dynamics, breaths) into key strokes and pedal movement. The result is compared with the measurements from step 1.
 5. **Recording.** The key strokes are played on the Salamander Grand Piano samples with continuous pedalling and string resonance, placed in a simulated room and mastered.
@@ -33,15 +33,16 @@ the same engine.
 ## Layout
 
 ```
-engine/      shared tools: notation parser, piano sampler, room and mastering, MIDI and LilyPond output
-nocturne/    Nocturne in B minor, and The Last Lamp in nocturne/last_lamp/
-ragtime/     Larkspur Rag
-etude/       Firethorn
-research/    the style measurements and the scripts that produced them
-examples/    finished outputs of every piece: MP3, score PDF, performance MIDI, figures, check reports
+genres/        one folder per genre
+  nocturne/    Nocturne in B minor, and The Last Lamp in last_lamp/
+  ragtime/     Larkspur Rag
+  etude/       Firethorn
+engine/        shared tools: notation parser, piano sampler, room and mastering, MIDI and LilyPond output
+research/      the style measurements and the scripts that produced them
+examples/      finished outputs of every piece: MP3, score PDF, performance MIDI, figures, check reports
 ```
 
-Each genre folder holds the piece itself (notes and interpretation plan), its
+Each folder in `genres/` holds the piece itself (notes and interpretation plan), its
 proof-reader, its performer, and its build, engrave and verify scripts, with a README
 on the research and the music.
 
@@ -60,12 +61,12 @@ on the research and the music.
 ## Build a piece
 
 ```
-cd etude
-python etude_theory.py                        # proof-read
-python build_etude.py --tag final             # perform and record  -> ../out/etude_final
-python engrave_etude.py ../out/etude_final    # score
-python evaluate_etude.py ../out/etude_final/firethorn_performance.mid
-python verify_etude.py final                  # audio against score
+cd genres/etude
+python etude_theory.py                           # proof-read
+python build_etude.py --tag final                # perform and record  -> out/etude_final
+python engrave_etude.py ../../out/etude_final    # score
+python evaluate_etude.py ../../out/etude_final/firethorn_performance.mid
+python verify_etude.py final                     # audio against score
 ```
 
 The other pieces follow the same steps; the commands are in each folder's README.

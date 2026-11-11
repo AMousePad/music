@@ -7,7 +7,7 @@ headings, dynamics and the few words a pianist needs.
 """
 import math, os, subprocess, sys
 HERE = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, HERE); sys.path.insert(0, os.path.join(HERE, "..", "engine"))
+sys.path.insert(0, HERE); sys.path.insert(0, os.path.join(HERE, "..", "..", "engine"))
 from score import _split, _TAIL, dur as _dur, midi
 from lily import ly_pitch, chord_text, LILY
 import firethorn as piece
@@ -270,7 +270,7 @@ def build_ly(sc):
 
 
 if __name__ == "__main__":
-    out = sys.argv[1] if len(sys.argv) > 1 else os.path.join(HERE, "..", "out", "etude_final")
+    out = sys.argv[1] if len(sys.argv) > 1 else os.path.join(HERE, "..", "..", "out", "etude_final")
     os.makedirs(out, exist_ok=True)
     ly = os.path.join(out, "firethorn.ly")
     open(ly, "w", encoding="utf8").write(build_ly(piece.build()))

@@ -9,30 +9,30 @@ studied and put to work on one theme:
 - a high bell note reached by leaps, and fast repeated notes (Liszt, *La Campanella*);
 - a slow rhapsodic opening, stride bass, bravura and interlocking octaves and a driven close in the major (Liszt, *Hungarian Rhapsody No. 2*).
 
-- **Listen:** [firethorn.mp3](../examples/firethorn/firethorn.mp3), 4:11
-- **Score:** [firethorn.pdf](../examples/firethorn/firethorn.pdf) (7 pages, engraved with LilyPond)
-- **Performance data:** [firethorn_performance.mid](../examples/firethorn/firethorn_performance.mid)
-- **Everything else** (score source, figures, check reports): [examples/firethorn](../examples/firethorn)
+- **Listen:** [firethorn.mp3](../../examples/firethorn/firethorn.mp3), 4:11
+- **Score:** [firethorn.pdf](../../examples/firethorn/firethorn.pdf) (7 pages, engraved with LilyPond)
+- **Performance data:** [firethorn_performance.mid](../../examples/firethorn/firethorn_performance.mid)
+- **Everything else** (score source, figures, check reports): [examples/firethorn](../../examples/firethorn)
 
-![First page of the score](../examples/firethorn/firethorn-page1.png)
+![First page of the score](../../examples/firethorn/firethorn-page1.png)
 
 ```
-cd etude
+cd genres/etude
 python etude_theory.py                       # proof-read harmony, voice leading, playability
-python build_etude.py --tag final            # perform + render -> ../out/etude_final
-python engrave_etude.py ../out/etude_final
-python evaluate_etude.py ../out/etude_final/firethorn_performance.mid
+python build_etude.py --tag final            # perform + render -> ../../out/etude_final
+python engrave_etude.py ../../out/etude_final
+python evaluate_etude.py ../../out/etude_final/firethorn_performance.mid
 python verify_etude.py final
 ```
 
-Setup (Python packages, piano samples, LilyPond, ffmpeg) is described in the [top-level README](../README.md#setup). The build also writes lossless FLAC and 24-bit WAV; only the MP3 is stored in the repository.
+Setup (Python packages, piano samples, LilyPond, ffmpeg) is described in the [top-level README](../../README.md#setup). The build also writes lossless FLAC and 24-bit WAV; only the MP3 is stored in the repository.
 
 ## What was researched
 
 [MAESTRO v3](https://magenta.tensorflow.org/datasets/maestro) (CC BY-NC-SA 4.0): its 46
 Disklavier recordings of bravura Liszt: La Campanella (11 recordings), the Hungarian
 Rhapsodies, Gnomenreigen, Feux follets, Mazeppa, Wilde Jagd and the Tarantella
-(`../research/analyze_virtuoso.py`, results in `../research/virtuoso_stats.json`).
+(`../../research/analyze_virtuoso.py`, results in `../../research/virtuoso_stats.json`).
 
 What the recordings said (lowest / median / highest over the 46):
 
@@ -76,7 +76,7 @@ the filigree in Var. 3, thirty-second interlocking octaves in the coda.
 - **Balance:** the line above everything, the bell lighter than the tune it answers, after-beat chords well under, arpeggios a murmur beneath the melody.
 - **Pedal:** a dab with each bass note in the staccato textures, none in the relayed line, a change on every beat or harmony under octaves and arpeggios, long pedals in the introduction.
 
-## Verification (`../examples/firethorn/*.txt`)
+## Verification (`../../examples/firethorn/*.txt`)
 
 | Check | Result |
 |---|---|

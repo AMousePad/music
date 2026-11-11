@@ -1,4 +1,4 @@
-file ../out/etude_final/firethorn.wav
+file firethorn.wav
  duration 251.5s  integrated -18.0 LUFS  sample peak -1.3 dBFS
  400ms RMS dB: p05 -41.4  p50 -27.3  p95 -16.6  max -12.6  => dynamic span p95-p05 24.9 dB
  LRA (p95-p10 of 3 s loudness) 15.3 LU
@@ -7,4 +7,4 @@ file ../out/etude_final/firethorn.wav
  spectral centroid median 536 Hz
  max |dx| 0.1324 (p99.99 0.0795)  DC -4.96e-08
  last 12 s level: start -2.2 dB  end -130.9 dB
- wrote ../out/etude_final/spectrogram.png
+ wrote spectrogram.png

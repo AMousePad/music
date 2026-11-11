@@ -1,13 +1,13 @@
 """Compose -> perform -> render Firethorn.
 
 python build_etude.py [--tag final] [--no-audio]
-Outputs go to ../out/etude_<tag>/ : performance MIDI, WAV (24-bit), FLAC, MP3, a figure of
+Outputs go to ../../out/etude_<tag>/ : performance MIDI, WAV (24-bit), FLAC, MP3, a figure of
 the interpretation, the proof-reading report.
 """
 import argparse, json, os, subprocess, sys
 import numpy as np
 HERE = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, HERE); sys.path.insert(0, os.path.join(HERE, "..", "engine"))
+sys.path.insert(0, HERE); sys.path.insert(0, os.path.join(HERE, "..", "..", "engine"))
 import firethorn as piece
 from perform_etude import Virtuoso
 import etude_theory
@@ -49,7 +49,7 @@ def main():
     ap.add_argument("--tag", default="final"); ap.add_argument("--no-audio", action="store_true")
     ap.add_argument("--seed", type=int, default=1851)
     a = ap.parse_args()
-    out = os.path.join(HERE, "..", "out", f"etude_{a.tag}"); os.makedirs(out, exist_ok=True)
+    out = os.path.join(HERE, "..", "..", "out", f"etude_{a.tag}"); os.makedirs(out, exist_ok=True)
     sc = piece.build()
     issues, stats = etude_theory.check(sc, verbose=False)
     print(f"score: {stats['bars']} bars, {stats['notes']} notes, {len(issues)} proof-reading issues")

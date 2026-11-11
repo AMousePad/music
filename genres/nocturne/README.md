@@ -9,12 +9,12 @@ recorded entirely in code. Nothing in it is quoted from Chopin; the style was
 studied from his scores and from recordings of concert pianists, and both the
 composition and the playing were checked against those measurements.
 
-- **Listen:** [nocturne_b_minor.mp3](../examples/nocturne_b_minor/nocturne_b_minor.mp3), 4:12
-- **Score:** [nocturne_b_minor.pdf](../examples/nocturne_b_minor/nocturne_b_minor.pdf) (4 pages, engraved with LilyPond)
-- **Performance data:** [nocturne_b_minor_performance.mid](../examples/nocturne_b_minor/nocturne_b_minor_performance.mid) (with continuous pedal)
-- **Everything else** (score source, figures, check reports): [examples/nocturne_b_minor](../examples/nocturne_b_minor)
+- **Listen:** [nocturne_b_minor.mp3](../../examples/nocturne_b_minor/nocturne_b_minor.mp3), 4:12
+- **Score:** [nocturne_b_minor.pdf](../../examples/nocturne_b_minor/nocturne_b_minor.pdf) (4 pages, engraved with LilyPond)
+- **Performance data:** [nocturne_b_minor_performance.mid](../../examples/nocturne_b_minor/nocturne_b_minor_performance.mid) (with continuous pedal)
+- **Everything else** (score source, figures, check reports): [examples/nocturne_b_minor](../../examples/nocturne_b_minor)
 
-![First page of the score](../examples/nocturne_b_minor/nocturne_b_minor-page1.png)
+![First page of the score](../../examples/nocturne_b_minor/nocturne_b_minor-page1.png)
 
 > One caveat up front: no human ear was involved. Every decision was verified by
 > measurement (listed under "Verification"), not by listening.
@@ -22,23 +22,23 @@ composition and the playing were checked against those measurements.
 ## Rebuild
 
 ```
-cd nocturne
+cd genres/nocturne
 python theory.py                 # proof-read the composition
-python build.py --tag final      # perform + render  -> ../out/nocturne_final
-python engrave.py ../out/nocturne_final      # score PDF
-python evaluate.py ../out/nocturne_final/nocturne_b_minor_performance.mid
+python build.py --tag final      # perform + render  -> ../../out/nocturne_final
+python engrave.py ../../out/nocturne_final      # score PDF
+python evaluate.py ../../out/nocturne_final/nocturne_b_minor_performance.mid
 python verify_audio.py final
 ```
 
-Setup (Python packages, piano samples, LilyPond, ffmpeg) is described in the [top-level README](../README.md#setup). The build also writes lossless FLAC and 24-bit WAV; only the MP3 is stored in the repository.
+Setup (Python packages, piano samples, LilyPond, ffmpeg) is described in the [top-level README](../../README.md#setup). The build also writes lossless FLAC and 24-bit WAV; only the MP3 is stored in the repository.
 
 ## What was researched
 
 | Source | Used for |
 |---|---|
-| [Chopin first editions, Humdrum scores](https://github.com/pl-wnifc/humdrum-chopin-first-editions) (Fryderyk Chopin Institute, CC BY 4.0) | Style statistics of all 19 nocturnes (`../research/analyze_scores.py`) |
-| [MAESTRO v3](https://magenta.tensorflow.org/datasets/maestro) (CC BY-NC-SA 4.0) | 19 Disklavier recordings of Chopin nocturnes by competition pianists: touch, voicing, hand asynchrony, pedalling (`../research/analyze_performances.py`) |
-| [ASAP](https://github.com/fosfrancesco/asap-dataset) (CC BY-NC-SA 4.0) | Beat-level rubato in the Berceuse and Barcarolle (`../research/analyze_tempo.py`) |
+| [Chopin first editions, Humdrum scores](https://github.com/pl-wnifc/humdrum-chopin-first-editions) (Fryderyk Chopin Institute, CC BY 4.0) | Style statistics of all 19 nocturnes (`../../research/analyze_scores.py`) |
+| [MAESTRO v3](https://magenta.tensorflow.org/datasets/maestro) (CC BY-NC-SA 4.0) | 19 Disklavier recordings of Chopin nocturnes by competition pianists: touch, voicing, hand asynchrony, pedalling (`../../research/analyze_performances.py`) |
+| [ASAP](https://github.com/fosfrancesco/asap-dataset) (CC BY-NC-SA 4.0) | Beat-level rubato in the Berceuse and Barcarolle (`../../research/analyze_tempo.py`) |
 | [Salamander Grand Piano V3](https://freepats.zenvoid.org/Piano/acoustic-grand-piano.html) (Alexander Holm, CC BY 3.0) | The instrument: Yamaha C5, 16 velocity layers, 48 kHz / 24 bit |
 | Musopen recordings on Wikimedia Commons (public domain) | Tonal balance and stereo image reference for mastering |
 | Rothstein, ["Like Falling off a Log: Rubato in Chopin's Prelude in A-flat"](https://mtosmt.org/issues/mto.05.11.1/mto.05.11.1.rothstein.php), MTO 11.1 | Where time is taken: dissonance, augmented sixths, rising sequences |
@@ -80,7 +80,7 @@ octaves at the climax and a doubled leading tone in bar 38. Current result: 0 is
 - **Tone:** melody above everything, long notes weightier than passing ones, resolutions softer than their dissonances, low figure notes only touched.
 - **Pedal:** syncopated legato pedalling with a continuous depth, half-changes inside the cadenza.
 
-## The instrument and hall (`../engine/piano.py`, `../engine/hall.py`)
+## The instrument and hall (`../../engine/piano.py`, `../../engine/hall.py`)
 
 A sampler written for this piece: continuous damper model (half-pedal works),
 register-dependent damping, release samples, sympathetic string resonance,
@@ -88,7 +88,7 @@ una corda, and a voicing regulation that evens out the sample set (its C6 was
 3–5 dB weak and D♯6 too strong, right in the melody register). The hall is a
 synthesised shoebox (early reflections plus a diffuse tail, about 1.8 s).
 
-## Verification (`../examples/nocturne_b_minor/*.txt`)
+## Verification (`../../examples/nocturne_b_minor/*.txt`)
 
 | Check | Result |
 |---|---|
@@ -111,6 +111,6 @@ Codex. Its notes, harmony, form and interpretation are its own (`last_lamp/piece
 `last_lamp/concert.py`); it is played by this folder's `perform.py`, proof-read by
 `theory.py` and rendered by the shared engine.
 
-- **Listen:** [the_last_lamp.mp3](../examples/the_last_lamp/the_last_lamp.mp3)
-- **Score:** [the_last_lamp.pdf](../examples/the_last_lamp/the_last_lamp.pdf) (6 pages)
+- **Listen:** [the_last_lamp.mp3](../../examples/the_last_lamp/the_last_lamp.mp3)
+- **Score:** [the_last_lamp.pdf](../../examples/the_last_lamp/the_last_lamp.pdf) (6 pages)
 - **Details and rebuild instructions:** [last_lamp/README.md](last_lamp/README.md)

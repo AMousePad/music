@@ -1,13 +1,13 @@
 """Compose -> perform -> render the rag.
 
 python build_rag.py [--tag final] [--no-audio]
-Outputs go to ../out/ragtime_<tag>/ : performance MIDI, WAV (24-bit), FLAC, MP3, a figure
+Outputs go to ../../out/ragtime_<tag>/ : performance MIDI, WAV (24-bit), FLAC, MP3, a figure
 of the interpretation.
 """
 import argparse, json, os, subprocess, sys
 import numpy as np
 HERE = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, HERE); sys.path.insert(0, os.path.join(HERE, "..", "engine"))
+sys.path.insert(0, HERE); sys.path.insert(0, os.path.join(HERE, "..", "..", "engine"))
 import larkspur_rag as piece
 from perform_rag import RagPerformance
 import rag_theory
@@ -49,7 +49,7 @@ def main():
     ap.add_argument("--tag", default="final"); ap.add_argument("--no-audio", action="store_true")
     ap.add_argument("--seed", type=int, default=1899)
     a = ap.parse_args()
-    out = os.path.join(HERE, "..", "out", f"ragtime_{a.tag}"); os.makedirs(out, exist_ok=True)
+    out = os.path.join(HERE, "..", "..", "out", f"ragtime_{a.tag}"); os.makedirs(out, exist_ok=True)
     issues, stats = rag_theory.check(piece.build(written=True), verbose=False)
     print(f"score: {len(issues)} proof-reading issues")
     for i in issues:

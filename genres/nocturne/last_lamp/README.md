@@ -6,17 +6,17 @@ An original nocturne in F minor for solo piano, composed with Codex on November
 targets advanced concert difficulty, approximately Henle 8. That is an editorial
 estimate, not an official grade awarded by Henle or an examination board.
 
-[Listen: MP3](../../examples/the_last_lamp/the_last_lamp.mp3) ·
-[Piano score: PDF](../../examples/the_last_lamp/the_last_lamp.pdf) ·
-[Expressive performance: MIDI](../../examples/the_last_lamp/the_last_lamp_performance.mid) ·
-[Notated score: MIDI](../../examples/the_last_lamp/the_last_lamp_score.mid)
+[Listen: MP3](../../../examples/the_last_lamp/the_last_lamp.mp3) ·
+[Piano score: PDF](../../../examples/the_last_lamp/the_last_lamp.pdf) ·
+[Expressive performance: MIDI](../../../examples/the_last_lamp/the_last_lamp_performance.mid) ·
+[Notated score: MIDI](../../../examples/the_last_lamp/the_last_lamp_score.mid)
 
-![First page of the score](../../examples/the_last_lamp/the_last_lamp-page1.png)
+![First page of the score](../../../examples/the_last_lamp/the_last_lamp-page1.png)
 
 The formal framework and interpretation are in [piece.py](piece.py); the
 authored concert development is in [concert.py](concert.py). The editable engraving is
-[LilyPond](../../examples/the_last_lamp/the_last_lamp.ly). The finished outputs are in
-[examples/the_last_lamp](../../examples/the_last_lamp). The build also writes lossless
+[LilyPond](../../../examples/the_last_lamp/the_last_lamp.ly). The finished outputs are in
+[examples/the_last_lamp](../../../examples/the_last_lamp). The build also writes lossless
 FLAC and a 48 kHz / 24-bit stereo WAV to `recording/`; those are not stored in the
 repository.
 
@@ -111,7 +111,7 @@ input paths in that directory.
   governs all Chopin.
 - `research/score_stats.json`, `research/performance_stats.json`, the shared
   `engine/` (`score.py`, `piano.py`, `hall.py`, notation helpers), and the
-  B-minor nocturne's `nocturne/perform.py` and `nocturne/theory.py`.
+  B-minor nocturne's `genres/nocturne/perform.py` and `genres/nocturne/theory.py`.
   The existing engine supplies notation, touch, pedalling, and piano rendering;
   the new notes, harmony, formal plan, tempo plan, dynamics, and score edition
   are in this folder.
@@ -121,17 +121,17 @@ input paths in that directory.
 From the repository root:
 
 ```powershell
-python nocturne/last_lamp/build.py
-python nocturne/last_lamp/verify.py
+python genres/nocturne/last_lamp/build.py
+python genres/nocturne/last_lamp/verify.py
 ```
 
 For a performance-only revision with the existing score retained, use
-`python nocturne/last_lamp/build.py --no-engraving`.
+`python genres/nocturne/last_lamp/build.py --no-engraving`.
 
 `--no-audio` rebuilds the notation and MIDI without rendering sound. All generated
-files go to `nocturne/last_lamp/recording`, outside the excluded directory. The build
+files go to `genres/nocturne/last_lamp/recording`, outside the excluded directory. The build
 uses the Python dependencies, FFmpeg, LilyPond, and piano samples described in the
-[top-level README](../../README.md#setup). Verification also uses `pypdf`.
+[top-level README](../../../README.md#setup). Verification also uses `pypdf`.
 
 The build checks measure durations, left-hand chord spelling, melodic
 non-chord-tone resolution, sampled outer-voice parallels, simultaneous chord
@@ -147,7 +147,7 @@ unreleased or overlapping repeated MIDI notes, checks audio format and peaks,
 checks engraving diagnostics and PDF page count, compares the engraved MIDI's
 pitch counts with the authored score, and compares each bar's audio
 pitch-class spectrum with all twelve transpositions of its expected notes.
-Detailed results are in [validation.json](../../examples/the_last_lamp/validation.json).
+Detailed results are in [validation.json](../../../examples/the_last_lamp/validation.json).
 The decoded MIDI pedal is also checked to ensure resonance continues through
 all five sustained breaths.
 

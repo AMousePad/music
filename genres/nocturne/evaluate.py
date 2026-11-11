@@ -7,10 +7,10 @@ recordings; the table shows where this performance falls inside their range.
 import json, os, sys
 import numpy as np
 HERE = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, os.path.join(HERE, "..", "research"))
+sys.path.insert(0, os.path.join(HERE, "..", "..", "research"))
 from analyze_performances import analyse
 
-ref = json.load(open(os.path.join(HERE, "..", "research", "performance_stats.json")))["performances"]
+ref = json.load(open(os.path.join(HERE, "..", "..", "research", "performance_stats.json")))["performances"]
 mine = analyse(dict(midi_filename=sys.argv[1], canonical_title="mine", year=""))
 
 def get(d, path):

@@ -2,7 +2,7 @@
 
 A third player, after the nocturne's and the rag's.  The rules are explicit and each one
 is either standard practice for this repertoire or taken from the measurements in
-../research/virtuoso_stats.json (46 recordings of La Campanella, the Hungarian
+../../research/virtuoso_stats.json (46 recordings of La Campanella, the Hungarian
 Rhapsodies and the Transcendental Etudes):
 
   time      a tempo plan per section (firethorn.TEMPO): free in the introduction, strict in
@@ -27,7 +27,7 @@ Rhapsodies and the Transcendental Etudes):
 import math, os, sys
 import numpy as np
 HERE = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, os.path.join(HERE, "..", "engine"))
+sys.path.insert(0, os.path.join(HERE, "..", "..", "engine"))
 from midi_out import PerformanceOutput
 import firethorn as piece
 

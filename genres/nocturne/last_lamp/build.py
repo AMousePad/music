@@ -1,7 +1,7 @@
-"""Build this new composition without accessing ../out.
+"""Build this new composition without accessing the repository's out/ folder.
 
-python nocturne/last_lamp/build.py               # score, performance MIDI, WAV/FLAC/MP3
-python nocturne/last_lamp/build.py --no-audio    # composition checks and both scores
+python genres/nocturne/last_lamp/build.py               # score, performance MIDI, WAV/FLAC/MP3
+python genres/nocturne/last_lamp/build.py --no-audio    # composition checks and both scores
 """
 import argparse
 import importlib.util

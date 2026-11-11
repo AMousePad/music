@@ -26,7 +26,7 @@ Motivic threads
     z  minor ninth over the dominant falling to the root        (bars 3, 10, 11, 13, 26, 27)
 """
 import os, sys
-sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "engine"))
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "engine"))
 from score import Score
 
 TITLE = "Nocturne in B minor"

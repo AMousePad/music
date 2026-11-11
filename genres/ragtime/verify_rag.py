@@ -9,12 +9,12 @@ import os, sys
 import numpy as np, soundfile as sf
 from scipy.signal import stft
 HERE = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, HERE); sys.path.insert(0, os.path.join(HERE, "..", "engine"))
+sys.path.insert(0, HERE); sys.path.insert(0, os.path.join(HERE, "..", "..", "engine"))
 import larkspur_rag as piece
 from perform_rag import RagPerformance
 
 tag = sys.argv[1] if len(sys.argv) > 1 else "final"
-x, sr = sf.read(os.path.join(HERE, "..", "out", f"ragtime_{tag}", "larkspur_rag.wav"), always_2d=True)
+x, sr = sf.read(os.path.join(HERE, "..", "..", "out", f"ragtime_{tag}", "larkspur_rag.wav"), always_2d=True)
 mono = x.mean(axis=1)
 sc = piece.build()
 perf = RagPerformance(sc, piece.PLAN)

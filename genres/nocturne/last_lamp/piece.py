@@ -1,14 +1,14 @@
 """The Last Lamp: an original nocturne in F minor (2026).
 
 Authored score and interpretation, revised for advanced concert difficulty.
-The formal framework below is developed in concert.py. No material from ../out is used.
+The formal framework below is developed in concert.py. No material from the repository's out/ folder is used.
 Durations are eighth notes; the inherited Score/Performance tools use 12/8.
 """
 from pathlib import Path
 import sys
 
-ROOT = Path(__file__).resolve().parents[2]
-sys.path.insert(0, str(ROOT / "nocturne"))
+ROOT = Path(__file__).resolve().parents[3]
+sys.path.insert(0, str(ROOT / "genres" / "nocturne"))
 sys.path.insert(0, str(ROOT / "engine"))
 from score import Score
 

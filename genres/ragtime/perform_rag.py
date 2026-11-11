@@ -21,7 +21,7 @@ tempo and pedalling in ragtime) is built in as explicit rules:
 import math, os, sys
 import numpy as np
 HERE = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, os.path.join(HERE, "..", "engine"))
+sys.path.insert(0, os.path.join(HERE, "..", "..", "engine"))
 from midi_out import PerformanceOutput
 
 

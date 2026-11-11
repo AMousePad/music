@@ -7,10 +7,10 @@ follets, Mazeppa, Wilde Jagd and the Tarantella.
 """
 import json, os, sys
 HERE = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, os.path.join(HERE, "..", "research"))
+sys.path.insert(0, os.path.join(HERE, "..", "..", "research"))
 from analyze_virtuoso import measure
 
-ref = json.load(open(os.path.join(HERE, "..", "research", "virtuoso_stats.json")))
+ref = json.load(open(os.path.join(HERE, "..", "..", "research", "virtuoso_stats.json")))
 mine = measure(sys.argv[1])
 ROWS = [
     ("notes per second, whole piece", "notes_per_second"), ("notes per second, median second", "nps_p50"),

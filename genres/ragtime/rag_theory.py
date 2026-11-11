@@ -6,7 +6,7 @@ python rag_theory.py
 import json, os, statistics, sys
 from collections import Counter
 HERE = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, os.path.join(HERE, "..", "engine"))
+sys.path.insert(0, os.path.join(HERE, "..", "..", "engine"))
 from score import chord_pcs
 import larkspur_rag as piece
 
@@ -172,6 +172,6 @@ def corpus_compare(stats, path):
 if __name__ == "__main__":
     sc = piece.build(written=True)
     issues, stats = check(sc)
-    ref = os.path.join(HERE, "..", "research", "ragtime_stats.json")
+    ref = os.path.join(HERE, "..", "..", "research", "ragtime_stats.json")
     if os.path.exists(ref):
         corpus_compare(stats, ref)

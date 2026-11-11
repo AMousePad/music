@@ -4,10 +4,10 @@ The finished outputs of each piece, as built from the code in this repository.
 
 | Folder | Piece | Made by |
 |---|---|---|
-| [nocturne_b_minor/](nocturne_b_minor) | Nocturne in B minor | [nocturne/](../nocturne/README.md) |
-| [the_last_lamp/](the_last_lamp) | The Last Lamp, Nocturne in F minor | [nocturne/last_lamp/](../nocturne/last_lamp/README.md) |
-| [larkspur_rag/](larkspur_rag) | Larkspur Rag | [ragtime/](../ragtime/README.md) |
-| [firethorn/](firethorn) | Firethorn, Rhapsodie-Étude in F-sharp minor | [etude/](../etude/README.md) |
+| [nocturne_b_minor/](nocturne_b_minor) | Nocturne in B minor | [genres/nocturne/](../genres/nocturne/README.md) |
+| [the_last_lamp/](the_last_lamp) | The Last Lamp, Nocturne in F minor | [genres/nocturne/last_lamp/](../genres/nocturne/last_lamp/README.md) |
+| [larkspur_rag/](larkspur_rag) | Larkspur Rag | [genres/ragtime/](../genres/ragtime/README.md) |
+| [firethorn/](firethorn) | Firethorn, Rhapsodie-Étude in F-sharp minor | [genres/etude/](../genres/etude/README.md) |
 
 What the files are:
 
